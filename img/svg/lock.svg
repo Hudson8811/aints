@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="32.01" viewBox="0 0 22 32.01">
+  <g data-name="Group 5" transform="translate(-154 -654.99)">
+    <g data-name="Path 5" fill="none" stroke-miterlimit="10">
+      <path d="M154,667.428v8.241a11,11,0,1,0,22,0v-8.241Z" stroke="none"/>
+      <path d="M 156 669.427978515625 L 156 675.6690063476563 C 156 680.8141479492188 160.0373840332031 685 165 685 C 169.9626159667969 685 174 680.8141479492188 174 675.6690063476563 L 174 669.427978515625 L 156 669.427978515625 M 154 667.427978515625 L 176 667.427978515625 L 176 675.6690063476563 C 176 681.927001953125 171.0749969482422 687 165 687 C 158.9250030517578 687 154 681.927001953125 154 675.6690063476563 L 154 667.427978515625 Z" stroke="none" fill="#bec9cc"/>
+    </g>
+      <path data-name="Path 6" d="M172.5,663.726a7.581,7.581,0,0,0-8.612-7.643,7.819,7.819,0,0,0-6.388,7.884v3.976" fill="none" stroke="#bec9cc" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <g data-name="Group 4">
+      <ellipse data-name="Ellipse 4" cx="2" cy="2.06" rx="2" ry="2.06" transform="translate(163 673.609)" fill="#bec9cc"/>
+      <path data-name="Rectangle 1" d="M0,0H2A0,0,0,0,1,2,0V4.151a1,1,0,0,1-1,1H1a1,1,0,0,1-1-1V0A0,0,0,0,1,0,0Z" transform="translate(164 675.669)" fill="#bec9cc"/>
+    </g>
+  </g>
+</svg>
