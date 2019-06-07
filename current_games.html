@@ -19,7 +19,7 @@
         <div class="inner h100">
             <div class="row d-flex h100">
                 <div class="logo">
-                    <a href="/" class="db rL h100 contain button" style="background-image: url(img/logo.png);"></a>
+                    <a href="/" class="db rL h100 contain button" style="background-image: url(img/logo.svg);"></a>
                 </div>
                 <nav>
                     <ul class="main-menu d-flex">
@@ -31,7 +31,7 @@
                     </ul>
                 </nav>
                 <div class="right_side d-flex">
-                    <a  class="attent box rL"></a>
+                    
                     <select name="lang" class="select hide">
                         <option value="RU">RU</option>
                         <option value="EN">EN</option>
@@ -53,30 +53,17 @@
         <div class="under-header box">
             <div class="inner">
                 <div class="container d-flex">
-                    <div class="left_side d-flex">
-                        <a href="#" class="link rL box current">
+                    <div class="left_side d-flex h100">
+                        <a href="#" class="link rL box current d-flex">
                             Текущие игры
                         </a>
-                        <div class="current-filters d-flex">
-                            <label class="check rL">
-                                <input type="checkbox" class="hide">
-                                <b class="abs db box"></b>
-                                <span>ATP (5)</span>
-                            </label>
-                            <label class="check rL">
-                                <input type="checkbox" class="hide">
-                                <b class="abs db box"></b>
-                                <span>WTA (5)</span>
-                            </label>
-                            <label class="check rL">
-                                <input type="checkbox" class="hide">
-                                <b class="abs db box"></b>
-                                <span>ITF (5)</span>
-                            </label>
-                        </div>
-                        <a href="#" class="link rL box">БУДУЩИЕ</a>
-                        <a href="#" class="link rL box">
+                        
+                        <a href="#" class="link rL box d-flex">БУДУЩИЕ</a>
+                        <a href="#" class="link rL box d-flex">
                             ПРОШЕДШИЕ
+                        </a>
+                        <a href="#" class="link rL box d-flex">
+                            <img src="img/bookmark.svg" alt="" style="height: 32px;">
                         </a>
                     </div>
                     <div class="right_side d-flex">
@@ -88,12 +75,33 @@
                             Включить <br>
                             акцент
                         </span>
-                    </label>
-                    <select  class="select hide">
-                        <option value="">По дате</option>
-                        <option value="">По дате</option>
-                        <option value="">По дате</option>
-                    </select>
+                   		</label>
+                   
+                    	<div class="current-filters d-flex">
+                            <label class="check rL">
+                                <input type="checkbox" class="hide">
+                                <b class="abs db box"></b>
+                                <span>ATP <sup>5</sup></span>
+                            </label>
+                            <label class="check rL">
+                                <input type="checkbox" class="hide">
+                                <b class="abs db box"></b>
+                                <span>WTA <sup>5</sup></span>
+                            </label>
+                            <label class="check rL">
+                                <input type="checkbox" class="hide">
+                                <b class="abs db box"></b>
+                                <span>ITF <sup>5</sup></span>
+                            </label>
+                        </div>
+                        <div class="icons_block d-flex">
+                        	<a href="#" class="d-flex">
+                        		<img src="img/icon1.svg" alt="">
+                        	</a>
+                        	<a href="#" class="d-flex">
+                        		<img src="img/icon2.svg" alt="">
+                        	</a>
+                        </div>
                     </div>
                     
                 </div>
