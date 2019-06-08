@@ -102,21 +102,58 @@
 .tx__page  .image_cat .row .fleft{padding-right: 37px;margin-bottom: 30px;}
 .tx__page  .image_cat .row .fleft .img{height: 208px;background-color: #d1d1d1;}
 
-.inside__page{padding: 60px 0;}
+.inside__page{padding: 30px 0;}
 .inside__page h1{font-size: 40px;line-height: 43px;color: #424A52;font-weight: 500;margin-bottom: 40px;}
 .inside__page .text__block{padding: 25px 40px;background-color: #fff;border-radius: 8px;-webkit-box-shadow: 0px 0px 12px 0px rgba(0,53,96,0.08);-moz-box-shadow: 0px 0px 12px 0px rgba(0,53,96,0.08);box-shadow: 0px 0px 12px 0px rgba(0,53,96,0.08);}
 .inside__page .text__block .logo{width: 141px;height: 37px;}
 .inside__page .text__block+.text__block{margin-top: 16px;}
 .inside__page .text__block h2{font-size: 28px;color: #424A52; line-height: 31px;font-weight: 500;margin-bottom: 35px;}
 .inside__page .text__block p{font-size: 18px;line-height: 34px;color: #424A52;}
+.inside__page .text__block p a{color: #333333;text-decoration: underline;}
 .inside__page .text__block p+p{margin-top: 35px;}
-
+.inside__page .text__block.rackets--bg{position: relative;}
+.inside__page .text__block.rackets--bg:before{content: '';position: absolute;width: 322px;height: 251px;right: 40px;bottom: 40px;background-image: url(../img/rackets.png);}
 .inside__page .inner_lit{max-width: 946px;}
 .inside__page .about_project{align-items: flex-start;}
-.inside__page .about_project .side-menu{width: 343px;margin-right: 30px;padding: 25px 0; flex-shrink: 0;border-radius: 8px;background-color: #fff;-webkit-box-shadow: 0px 0px 12px 0px rgba(0,53,96,0.12);-moz-box-shadow: 0px 0px 12px 0px rgba(0,53,96,0.12);box-shadow: 0px 0px 12px 0px rgba(0,53,96,0.12);}
+.inside__page .about_project .side-menu{width: 343px;margin-right: 30px;flex-shrink: 0;}
+
+.inside__page .about_project .side-menu ul{padding: 25px 0;box-sizing: border-box; border-radius: 8px;background-color: #fff;-webkit-box-shadow: 0px 0px 12px 0px rgba(0,53,96,0.12);-moz-box-shadow: 0px 0px 12px 0px rgba(0,53,96,0.12);box-shadow: 0px 0px 12px 0px rgba(0,53,96,0.12);}
 .inside__page .about_project .side-menu ul li a{font-size: 14px;line-height: 17px;text-transform: uppercase;color: #424A52;font-weight: 500; padding: 0 25px;position: relative;align-items: center;}
 .inside__page .about_project .side-menu ul li a img{height: 20px;width: 20px; margin-right: 15px;}
 .inside__page .about_project .side-menu ul li+li{margin-top: 40px;}
+
+.inside__page .contact-block{padding: 25px 40px 0;background-color: #fff;border-radius: 8px;-webkit-box-shadow: 0px 0px 12px 0px rgba(0,53,96,0.08);-moz-box-shadow: 0px 0px 12px 0px rgba(0,53,96,0.08);box-shadow: 0px 0px 12px 0px rgba(0,53,96,0.08);}
+.inside__page .contact-block h2{font-size: 28px;color: #424A52; line-height: 31px;font-weight: 500;margin-bottom: 50px;}
+.inside__page .contact-block .item{padding-bottom: 80px;}
+.inside__page .contact-block .item:before{content: '';position: absolute;background-position: bottom;background-repeat: no-repeat; bottom: 0;left: 0;height: 100%;width: 1px;background-image: url(../img/big-lane.png);}
+.inside__page .contact-block .item:last-child:after{content: '';position: absolute;bottom: 0; background-position: bottom;background-repeat: no-repeat;right: 0;height: 100%;width: 1px;background-image: url(../img/big-lane.png);}
+.inside__page .contact-block .item h3{margin-bottom: 15px; font-size: 11px;line-height: 24px;font-weight: 500;text-transform: uppercase;}
+.inside__page .contact-block .item .phone{max-width: 305px;width: 100%;height: 44px;margin: 0 auto;}
+.inside__page .contact-block .item .phone a{text-align: center;font-size: 22px;line-height: 44px;}
+.inside__page .contact-block .item .phone img{margin-left: -16px;}
+
+.inside__page .contact--form{position: relative; border-radius: 8px;box-sizing: border-box;padding: 30px 20px 20px 100px;background-color: #fff;}
+.inside__page .contact--form h2{font-size: 28px;line-height: 31px;color: #424a52;font-weight: 500;margin-bottom: 30px;}
+.inside__page .contact--form .left_side{width: 286px;flex-shrink: 0;margin-right: 20px;}
+.inside__page .contact--form .left_side .input-block+.input-block{margin-top: 25px;}
+.inside__page .contact--form .textarea{height: 157px;margin-top: 0;}
+.inside__page .contact--form .button{width: 150px;height: 40px;background-color: #fff;color: #2eb036;font-size: 14px;border: 1px solid #2eb036;box-sizing: border-box;border-radius: 5px;margin-top: 20px;}
+.inside__page .about_project .row-radios{margin-top: 20px;}
+.inside__page .about_project .row-radios label+label{margin-left: 10px;}
+.inside__page .about_project .row-radios label b{display: block;width: 76px;height: 44px;padding: 1px;border-radius: 5px;}
+.inside__page .about_project .row-radios label b span{background-size: 80% 80%; display: block;height: 100%;background-color: #fff;border-radius: 5px;}
+.inside__page .about_project .row-radios label input:checked+b{background: linear-gradient(to right, #f6a500 0%,#005098 53%);}
+
+
+.inside__page .about_project .row-radios-big{margin-top: 20px;margin-right: -20px;}
+.inside__page .about_project .row-radios-big label{box-sizing: border-box;float: left;width: 25%;margin-bottom: 20px;padding-right: 20px;}
+.inside__page .about_project .row-radios-big label b{transition: 0.3s; display: block;width: 99%;height: 150px; padding: 1px;border-radius: 5px;}
+.inside__page .about_project .row-radios-big label b span{transition: 0.3s; background-size: 50% 50%; display: block;height: 100%;background-color: #fff;border-radius: 5px;}
+.inside__page .about_project .row-radios-big label input:checked+b{background: linear-gradient(135deg, #0d61ab 1%,#f24946 100%);}
+.inside__page .about_project .row-radios-big label input:checked+b span{background-color: transparent;}
+
+
+
 
 .inside__page .about_project .side-menu ul li.curent a:before{content: '';position: absolute;top: 50%;height: 32px;width: 32px;right: 13px;margin-top: -16px;background-image: url(../img/inside_menu-icons/arrow.png);}
 .inside__page .about_project .side-menu ul li img:nth-child(1){display: block;}
@@ -133,6 +170,16 @@
 .inside__page .main-options .form .line label{color: #525252;font-weight: 700;font-size: 14px;line-height: 34px;margin-bottom: 5px;}
 .inside__page .main-options .form .row .inputbox{border-radius: 3px; max-width: 337px;width: 100%;background-color: #f4f4f4;padding: 0 20px;height: 52px;margin-right: 20px;}
 .inside__page .main-options .form .row button{height: 52px;width: 180px;border-radius: 3px;border: 1px solid #999999;background-color: #fff;font-size: 14px;line-height: 17px;color: #999999;flex-shrink: 0;}
+.inside__page .about_project .container-content{margin-top: 19px;justify-content: space-between;}
+.inside__page .about_project .container-content .item{position: relative; border-radius: 8px;box-sizing: border-box;padding: 30px 20px 20px 100px;background-color: #fff;}
+.inside__page .about_project .container-content .item img.abs{position: absolute;top: 20px;left: 20px;}
+.inside__page .about_project .container-content .item h3{font-size: 22px;line-height: 25px;font-weight: 500;}
+.inside__page .about_project .container-content .item h4{font-size: 18px;line-height: 22px;}
+.inside__page .about_project .container-content .item p{margin-top: 18px; font-size: 16px;line-height: 24px;color: #808080;font-weight: 300;}
+.inside__page .about_project .container-content .item p.mt0{margin-top: 0;}
+.inside__page .about_project .container-content .item p a{color: #333333;text-decoration: underline;}
+.inside__page .about_project .container-content .item.donate-form .input-block{margin-top: 20px;}
+.inside__page .about_project .container-content .item button{background-color: #fff; margin-top: 13px;width: 127px;height: 40px;border-radius: 3px;font-size: 12px;line-height: 15px;font-weight: 500;color: #a0a4a8;text-transform: uppercase;border: 1px solid #a0a4a8;}
 .inside__page .logs{background-color: #fff;border-radius: 10px;padding-top: 30px;box-sizing: border-box;-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);margin-top: 40px;}
 .inside__page .logs .logs-title{justify-content: space-between;padding: 0 30px;font-weight: 300;align-items: flex-end;}
 .inside__page .logs .logs-title h2{font-size: 28px;line-height: 32px;color: #525252;}
@@ -141,14 +188,12 @@
 .inside__page .logs .table .tr .tbc{height: 62px;border-top: 1px dashed #dddddd;font-size: 14px;line-height: 20px;color: #525252;font-weight: 300;}
 .inside__page .logs .table .tr .tbc:first-child{padding-left: 30px;}
 .inside__page .logs .table .tr .tbc:last-child{padding-right: 30px;font-weight: 700;text-align: right;}
-.inside__page .faq{margin-top: 50px;}
-.inside__page .faq .faq__left-side{max-width: 950px;width: 100%;justify-content: space-between;flex-wrap: wrap;}
+
 .inside__page .faq .faq__left-side .item{padding-top: 30px;background-color: #fff;-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);border-radius: 11px;width: 100%; margin-bottom: 30px;}
 
 
 .inside__page .faq{justify-content: space-between;align-items: flex-start;}
 .inside__page .faq .faq__left-side{align-items: flex-start;}
-.inside__page .faq .faq__left-side .cards{max-width: 460px;width: 49%;}
 .inside__page .faq .faq__left-side .item .item-title{padding: 0 30px 25px;align-items: center;}
 .inside__page .faq .faq__left-side .item .item-title .icon{flex-shrink: 0;height: 35px;width: 35px;margin-right: 20px;}
 .inside__page .faq .faq__left-side .item .item-title .icon span{background-repeat: no-repeat;background-position: center center;}
@@ -158,13 +203,15 @@
 .inside__page .faq .faq__left-side .item .title-ac:before{content: '';position: absolute;top: 50%;right: 30px;height: 7px;width: 14px;margin-top: -3.5px;background-image: url(../img/faq-arrow.png);transition: 0.3s;}
 .inside__page .faq .faq__left-side .item  .body-ac{padding-bottom: 20px;}
 .inside__page .faq .faq__left-side .item .title-ac.ui-accordion-header-active:before{transform: rotate(180deg);}
-.inside__page .faq .faq__form{margin-left: 20px;	 max-width: 420px;width: 100%; background-color: #fff;-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);border-radius: 11px;box-sizing: border-box;padding: 30px;}
-.inside__page .faq .faq__form span{font-size: 18px;line-height: 34px;color: #999999;font-weight: 300;}
-.inside__page .faq .faq__form h2{font-size: 28px;line-height: 34px;color: #525252;font-weight: 300;}
-.inside__page .faq .faq__form textarea{height: 120px;background-color: #f4f4f4;padding: 10px;margin-top: 25px;	border-radius: 3px;overflow-y: auto;font-size: 14px;line-height: 17px;color: #999999;}
-.inside__page .faq .faq__form input{background-color: #f4f4f4;border-radius: 3px;margin-top: 13px;	padding: 0 15px;font-size: 14px;line-height: 20px;color: #999999;height: 52px;}
-.inside__page .faq .faq__form button{margin-top: 13px;width: 182px;height: 52px;border-radius: 3px;border:1px solid #1bbd06;font-size: 12px;line-height: 15px;font-weight: 500;color: #1bbd06;background-color: #fff;text-transform: uppercase;}
+.inside__page .faq .faq__form{margin-top: 20px;	 max-width: 420px;width: 100%; background-color: #fff;-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);border-radius: 11px;box-sizing: border-box;padding: 30px;}
+.inside__page .faq .faq__form span{font-size: 16px;line-height: 20px;color: #2eb036;font-weight: 500;}
+.inside__page .faq .faq__form h2{font-size: 20px;line-height: 35px;color: #424a52;font-weight: 500;}
+.inside__page .faq .faq__form textarea{height: 120px;padding: 10px;margin-top: 25px;	border-radius: 3px;overflow-y: auto;font-size: 14px;line-height: 17px;color: #999999;border: 1px solid #E6E7E9;}
+.inside__page .faq .faq__form input{margin-top: 13px;	}
+.inside__page .faq .faq__form button{margin-top: 13px;width: 127px;height: 40px;border-radius: 3px;font-size: 12px;line-height: 15px;font-weight: 500;color: #fff;background-color: #2eb036;text-transform: uppercase;}
 
+
+.textarea{height: 120px;padding: 10px;margin-top: 25px;	border-radius: 3px;overflow-y: auto;font-size: 14px;line-height: 17px;color: #999999;border: 1px solid #E6E7E9;}
 .inside__page .tarifs{margin-top: 50px;	}
 .inside__page .tarifs .item{justify-content: space-between;align-items: center;background-color: #fff;-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);border-radius: 11px;box-sizing: border-box;padding: 25px 30px;font-weight: 300;}
 .inside__page .tarifs .item+.item{margin-top: 10px;}

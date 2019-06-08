@@ -37,7 +37,7 @@ $('.btn11').click(function() {
 
 
  $( function() {
-    $( ".faq .accordion" ).accordion({
+    $( ".accordion" ).accordion({
       heightStyle: "content",
       collapsible: true,
       active: false,
