@@ -152,9 +152,10 @@
 .inside__page .about_project .row-radios-big label input:checked+b{background: linear-gradient(135deg, #0d61ab 1%,#f24946 100%);}
 .inside__page .about_project .row-radios-big label input:checked+b span{background-color: transparent;}
 
-
-
-
+.inside__page .about_project .rating--block{position: relative; border-radius: 8px;box-sizing: border-box;padding: 30px 20px 20px 30px;background-color: #fff;background-position: right;background-repeat: no-repeat;background-size: contain;}
+.inside__page .about_project .rating--block h2{align-items: center;font-size: 25px;line-height: 28px;color: #424a52;font-weight: 500;}
+.inside__page .about_project .rating--block h2 img{width: 40px;margin-right: 20px;flex-shrink: 0;}
+.inside__page .about_project .rating--block p{font-size: 18px;line-height: 34px;color: #424a52;margin-top: 10px;}
 .inside__page .about_project .side-menu ul li.curent a:before{content: '';position: absolute;top: 50%;height: 32px;width: 32px;right: 13px;margin-top: -16px;background-image: url(../img/inside_menu-icons/arrow.png);}
 .inside__page .about_project .side-menu ul li img:nth-child(1){display: block;}
 .inside__page .about_project .side-menu ul li img:nth-child(2){display: none;}
@@ -514,17 +515,23 @@ background: linear-gradient(to bottom, rgba(33,189,6,1) 0%, rgba(247,202,0,1) 10
 
 
 
+.inside__page .about_project .rating-row{justify-content: space-between;margin-top: 20px;}
+.inside__page .about_project .rating-row .item{padding: 40px 40px 35px 120px;border-radius: 8px;background-color: #fff;}
+.inside__page .about_project .rating-row .item img.abs{height: 60px;width: 60px;top: 30px;left: 30px;}
+.inside__page .about_project .rating-row .item h3{font-size: 22px;line-height: 25px;font-weight: 500;}
 
-
-
-
-
-
-
-
-
-
-
+.inside__page .about_project .rating-row .item .search-input{margin-top: 10px;}
+.inside__page .about_project .rating-row .item .search-input input{background-color: #f6f5f3;border-color: #f6f5f3;}
+.inside__page .about_project .rating-row .item .search-input button{height: 14px;width: 14px;position: absolute;z-index: 3;top: 50%;margin-top: -7px;background:none;background-image: url(../img/lope.svg);right: 13px;}
+.inside__page .about_project .rating-row .item .list-players{margin-top: 30px;}
+.inside__page .about_project .rating-row .item .list-players .item-player{border-radius: 5px; height: 60px;align-items: center;justify-content: space-between;padding: 0 20px;}
+.inside__page .about_project .rating-row .item .list-players .item-player+.item-plater{margin-top: 2px;}
+.inside__page .about_project .rating-row .item .list-players .item-player .counter{left: -44px;font-size: 14px;line-height: 60px;font-weight: 600;}
+.inside__page .about_project .rating-row .item .list-players .item-player .player-info{align-items: center;}
+.inside__page .about_project .rating-row .item .list-players .item-player .player-info .avatar{flex-shrink: 0;margin-right: 12px; height: 38px;width: 38px;}
+.inside__page .about_project .rating-row .item .list-players .item-player .player-info .avatar .country-icon{width: 16px;height: 11px;background-color: #fff;left: 0;bottom: -3px;}
+.inside__page .about_project .rating-row .item .list-players .item-player .player-info .name{font-size: 14px;line-height: 17px;color: #424a52;font-weight: 500;text-transform: uppercase;}
+.inside__page .about_project .rating-row .item .list-players .item-player .value{font-size: 18px;line-height: 21px;font-weight: 500;}
 
 
 
