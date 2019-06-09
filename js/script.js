@@ -17,6 +17,16 @@ $('.btn-regisrty').click(function(){
   $('#reset__pass').arcticmodal();
  });
  
+
+
+$('.btn_end-reg').click(function(){
+  $('#regisry_form').arcticmodal("close");
+  $('#regisry_end').arcticmodal();
+ });
+$('.btn-close').click(function(){
+
+  $('#regisry_end').arcticmodal("close");
+ });
 $(document).ready(function() {
   $('.select').niceSelect();
 })
@@ -74,3 +84,25 @@ $(function() {
 
 });
 })(jQuery);
+
+
+$('.slider').owlCarousel({
+    loop:true,
+    margin:0,
+    smartSpeed:125,
+    items:1,
+    nav:false,
+    navText:false,
+    dots:true,
+    autoplay:false,
+});
+
+
+
+
+
+$('.header .row .right_side.autorized .profile-block .avatar').click (function(){
+  $(this).parent().toggleClass("active");
+  $(this).next().slideToggle();
+ 
+});
