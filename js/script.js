@@ -17,6 +17,11 @@ $('.btn-regisrty').click(function(){
   $('#reset__pass').arcticmodal();
  });
  
+  $('.rating__item-info a').click(function(){
+  $('#about_premium').arcticmodal();
+ });
+
+
 
 
 $('.btn_end-reg').click(function(){
@@ -38,7 +43,7 @@ $(".numbox").mask("+7 (999) 999-99-99");
 
 
 $(function() {
-$('.btn11').click(function() {
+$('.burger-menu').click(function() {
 
      $(this).toggleClass("open");
      $(".header .row .main-menu").toggleClass("active");
@@ -54,9 +59,18 @@ $('.btn11').click(function() {
     });
   } );
 
+  $( function() {
+    $( ".accordion2" ).accordion({
+      heightStyle: "content",
+      collapsible: true,
 
-$('.top-banner .container .close').click(function() {
+    });
+  } );
+
+
+$('.top-banner .btn-close').click(function() {
      $(".top-banner").hide(200);
+     $(".shadow-container").hide(200);
 });
 
 $('.matches .item .top_block .btn-more').click(function() {
@@ -102,7 +116,21 @@ $('.slider').owlCarousel({
 
 
 $('.header .row .right_side.autorized .profile-block .avatar').click (function(){
+
   $(this).parent().toggleClass("active");
   $(this).next().slideToggle();
+ 
+});
+
+
+$('.input-block ul li').click(function() {
+$('.input-block input').val($(this).text());
+
+$(this).parent().parent().toggleClass('active');
+});
+
+$('.input-block.dr-menu').click (function(){
+  
+  $(this).children().next().slideToggle();
  
 });
