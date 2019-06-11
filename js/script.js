@@ -21,8 +21,20 @@ $('.btn-regisrty').click(function(){
   $('#about_premium').arcticmodal();
  });
 
+$('.ref-btn').click(function(){
+  $('#ref_form').arcticmodal();
 
+ });
+ 
+$('#ref_form form button').click(function(){
+  $('#ref_form').arcticmodal("close");
+   $('#ref-thanks').arcticmodal();
 
+ });
+ $('.inside__page .contact--form .button').click(function(){
+  $('#quest-thanks').arcticmodal();
+
+ });
 
 $('.btn_end-reg').click(function(){
   $('#regisry_form').arcticmodal("close");
@@ -124,7 +136,7 @@ $('.header .row .right_side.autorized .profile-block .avatar').click (function()
 
 
 $('.input-block ul li').click(function() {
-$('.input-block input').val($(this).text());
+$(this).parent().prev().prev().val($(this).text());
 
 $(this).parent().parent().toggleClass('active');
 });

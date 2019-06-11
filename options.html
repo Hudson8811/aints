@@ -94,6 +94,34 @@
                 <div class="content-block w100">
                     <form class="options_block" action="#"> 
                         <h2>    
+                           Основные
+                        </h2>
+                        <div class="row d-flex"> 
+                            <div class="input-block w100">  
+                             <input type="text" placeholder=" " required> 
+                             <label>Ваш ник</label>
+                            </div>  
+                            
+                            <button type="submit">Сохранить </button>
+                        </div>
+                        <div class="row d-flex"> 
+                            <div class="input-block w100">  
+                             <div class="input-block dr-menu">  
+                                    <input type="text" placeholder=" " value=""> 
+                                    <label>Ваш часовой пояс</label>
+                                    <ul class="abs hide">
+                                        <li class="cp">GMT+10</li>
+                                        <li class="cp">GMT+10</li>
+                                        <li class="cp">GMT+10</li>
+                                    </ul>
+                                </div>
+                            </div>  
+                            
+                            <button type="submit">Сохранить </button>
+                        </div>
+                    </form>
+                    <form class="options_block" action="#"> 
+                        <h2>    
                             Сменить эл. почту
                         </h2>
                         <div class="row d-flex"> 
@@ -114,17 +142,33 @@
                         </h2>
                         <div class="row d-flex"> 
                             <div class="input-block w100">  
-                             <input type="password" placeholder=" " required=""> 
+                             <input type="password" placeholder=" " required> 
                              <label>Текущий пароль</label>
                             </div>  
                             <div class="input-block w100" >  
-                             <input type="password"  placeholder=" " required=""> 
+                             <input type="password"  placeholder=" " required> 
                              <label>Новый пароль</label>
                             </div>  
                             <button type="submit">Сохранить </button>
                         </div>
                     </form>
                 </div>
+                <aside class="invite--block box rL">
+                    <h2>  
+                    Приглашайте <br>    
+                    партнёров!  
+                    </h2>
+                    <img src="img/coins2.png" alt="" class="abs">
+
+                    <p>
+                        Уловите свое руки мощные  дохновениевкл адывает в ваши  творческие инструменты, которые обеспечивают абсолютный контроль над текстом. их помощью в
+                    </p>
+                    <div class="ref-block box"> 
+                        <h3>Реферальная ссылка:</h3>
+                        <a href="#" class="inb">http://example/domen/offer1/YANDEX/link.ru</a>
+                    </div>
+                    <div class="button ref-btn cp upp">Пригласить по почте</div>
+                </aside>
                 
             </div>
         </div>
@@ -174,6 +218,56 @@
                 <img src="img/social-widget.jpg" alt="" class="db m0a">
             </div>
             
+          <div class="b-modal_close arcticmodal-close cp rotate"></div>  
+    </div>
+</div>
+
+<div class="b-modal modal--form"  id="ref_form">
+    <div class="modal_content">
+       <h2 class="alCenter">Приглашение <br>
+    партнёров по почте</h2>
+            <form class="db"  method="post" id="form_ref"> 
+                <p class="alCenter">
+                    Вы можете посмотреть <a href="#">здесь</a> пример письма, который придёт вашим партнёрам
+                </p>
+                <div class="btns-ref">
+                    <div class="input-block w100">  
+                    <input type="email" placeholder=" " required> 
+                    <label>Эл. почта</label>
+                    <div class="count abs">1.</div>
+                    </div>
+                    <a href="#" class="one-more alCenter db">Добавить ещё партнёра</a>
+                </div>
+              
+                <button  class="button btn w100 db" name="call-submit"><span>Отправить приглашения</span></button>
+                <input autocomplete="off" type="hidden" value=""  class="call-control" >
+            </form>
+            
+            
+          <div class="b-modal_close arcticmodal-close cp rotate"></div>  
+    </div>
+</div>
+<div class="b-modal modal--form"  id="ref-thanks">
+    <div class="modal_content">
+       <h2 class="alCenter">Приглашения <br> отправлены</h2>
+            <img src="img/icon-thansk.png" alt="">
+            <p class="alCenter">
+                При регистрации каждого партнёра
+                <span>вы получите 100 токенов</span>
+            </p>
+            <button  class="button btn w100 db arcticmodal-close" name="call-submit"><span>Закрыть</span></button>
+          <div class="b-modal_close arcticmodal-close cp rotate"></div>  
+    </div>
+</div>
+
+<div class="b-modal modal--form"  id="quest-thanks">
+    <div class="modal_content">
+       <h2 class="alCenter">Спасибо за вопрос!</h2>
+            <img src="img/icon-quest.png" alt="">
+            <p class="alCenter">
+                <span>Ответим в течении 30 минут по Эл. почте</span>
+            </p>
+            <button  class="button btn w100 db arcticmodal-close" name="call-submit"><span>Закрыть</span></button>
           <div class="b-modal_close arcticmodal-close cp rotate"></div>  
     </div>
 </div>
