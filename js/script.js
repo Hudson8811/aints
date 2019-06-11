@@ -48,7 +48,19 @@ $(document).ready(function() {
   $('.select').niceSelect();
 })
 
+jQuery(function($){
+  $(document).mouseup(function (e){ // событие клика по веб-документу
+    var div = $(".popup"); // тут указываем ID элемента
+    if (!div.is(e.target) // если клик был не по нашему блоку
+        && div.has(e.target).length === 0) { // и не по его дочерним элементам
+      div.hide(); // скрываем его
+    
+     $(".zinz-big").removeClass("zinz-big");
+     $(".shadow-container").hide();
 
+    }
+  });
+});
 
 $(".numbox").mask("+7 (999) 999-99-99");
 
@@ -57,8 +69,12 @@ $(".numbox").mask("+7 (999) 999-99-99");
 $(function() {
 $('.burger-menu').click(function() {
 
-     $(this).toggleClass("open");
-     $(".header .row .main-menu").toggleClass("active");
+     $(this).toggleClass("zinz-big");
+     $(".header .row .logo").toggleClass("zinz-big");
+     
+     $(".shadow-container").slideToggle();
+     $(".header .row .mobile-menu").slideToggle();
+
 });
 });
 
@@ -129,10 +145,19 @@ $('.slider').owlCarousel({
 
 $('.header .row .right_side.autorized .profile-block .avatar').click (function(){
 
-  $(this).parent().toggleClass("active");
+  $(this).prev().toggleClass("zinz-big");
+    $(this).parent().toggleClass("active");
+     $(".shadow-container").slideToggle();
   $(this).next().slideToggle();
+
+  $(this).toggleClass("zinz-big");
+  
+
+
  
 });
+
+
 
 
 $('.input-block ul li').click(function() {
