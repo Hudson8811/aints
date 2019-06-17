@@ -40,27 +40,12 @@ $('.btn_end-reg').click(function(){
   $('#regisry_form').arcticmodal("close");
   $('#regisry_end').arcticmodal();
  });
-$('.btn-close').click(function(){
 
-  $('#regisry_end').arcticmodal("close");
- });
 $(document).ready(function() {
   $('.select').niceSelect();
 })
 
-jQuery(function($){
-  $(document).mouseup(function (e){ // событие клика по веб-документу
-    var div = $(".popup"); // тут указываем ID элемента
-    if (!div.is(e.target) // если клик был не по нашему блоку
-        && div.has(e.target).length === 0) { // и не по его дочерним элементам
-      div.hide(); // скрываем его
-    
-     $(".zinz-big").removeClass("zinz-big");
-     $(".shadow-container").hide();
 
-    }
-  });
-});
 
 $(".numbox").mask("+7 (999) 999-99-99");
 
@@ -74,6 +59,38 @@ $('.burger-menu').click(function() {
      
      $(".shadow-container").slideToggle();
      $(".header .row .mobile-menu").slideToggle();
+     $(".header .row nav.drop-down").hide();
+     
+
+});
+});
+$(function() {
+$('.shadow-container').click(function() {
+
+     $(this).hide();
+     $(".zinz-big").removeClass("zinz-big");
+      $(".header .mobile-menu").hide();
+      $(".header .row nav.drop-down").hide();
+      $(".header .row .right_side.autorized .profile-block").removeClass("active"); 
+      $(".drop-games").hide();
+
+});
+});
+$(function() {
+$('.under-header .container .left_side .link').click(function() {
+    $(this).toggleClass("zinz-big");
+     $(this).children(".drop-games").slideToggle();
+     $(".shadow-container").show();
+     
+
+});
+});
+$(function() {
+$('.under-header .container .right_side .icons_block > div').click(function() {
+    $(this).toggleClass("zinz-big");
+     $(this).children(".drop-games").slideToggle();
+     $(".shadow-container").show();
+     
 
 });
 });
@@ -149,6 +166,10 @@ $('.header .row .right_side.autorized .profile-block .avatar').click (function()
     $(this).parent().toggleClass("active");
      $(".shadow-container").slideToggle();
   $(this).next().slideToggle();
+  $(".header .mobile-menu").hide();
+
+
+
 
   $(this).toggleClass("zinz-big");
   
