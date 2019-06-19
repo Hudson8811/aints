@@ -817,7 +817,7 @@ background: linear-gradient(to bottom, rgba(33,189,6,1) 0%, rgba(247,202,0,1) 10
   .graph__stability {
     font-size: 12px;
     font-weight: 300;
-    color: #999999;
+    color: #a0a4a8;
     display: flex;
     align-items: center; }
     .graph__stability:before {
@@ -842,7 +842,7 @@ background: linear-gradient(to bottom, rgba(33,189,6,1) 0%, rgba(247,202,0,1) 10
   .graph__skill {
     font-size: 12px;
     font-weight: 300;
-    color: #999999;
+    color: #a0a4a8;
     display: flex;
     align-items: center; }
     .graph__skill:after {
@@ -870,7 +870,7 @@ background: linear-gradient(to bottom, rgba(33,189,6,1) 0%, rgba(247,202,0,1) 10
     text-align: center;
     font-size: 12px;
     font-weight: 300;
-    color: #999999; }
+    color: #a0a4a8; }
   .graph__data {
     display: none; }
   .graph-tooltip {
@@ -908,7 +908,7 @@ background: linear-gradient(to bottom, rgba(33,189,6,1) 0%, rgba(247,202,0,1) 10
     .graph-tooltip__name {
       font-size: 12px;
       font-weight: 300;
-      color: #999999;
+      color: #a0a4a8;
       margin: 0 0 6px; }
     .graph-tooltip__rate {
       display: flex; }
@@ -926,7 +926,7 @@ background: linear-gradient(to bottom, rgba(33,189,6,1) 0%, rgba(247,202,0,1) 10
     .graph-tooltip__date {
       font-size: 12px;
       font-weight: 300;
-      color: #999999;
+      color: #a0a4a8;
       flex-grow: 2;
       text-align: right; }
 
