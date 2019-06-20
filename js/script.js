@@ -77,7 +77,7 @@ $('.shadow-container').click(function() {
 });
 });
 $(function() {
-$('.under-header .container .left_side .link').click(function() {
+$('.under-header .container .left_side div.link').click(function() {
     $(this).toggleClass("zinz-big");
      $(this).children(".drop-games").slideToggle();
      $(".shadow-container").show();
