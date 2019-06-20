@@ -322,7 +322,7 @@
 .matches .item .top_block sup{color: #424a52;}
 .matches .item .center_block{background-color: #ffff;justify-content: space-between;border-radius: 5px;width: auto;margin: 0 10px;}
 .matches .item .bottom_block{background-color: #fff;margin: 0 20px;height: 37px;}
-.matches .item .center_block .player{position: relative; background-color: #fff;border-radius: 8px;width: 49.5%;border: 1px solid #dddddd;box-shadow: 0px 0px 4px 0px rgba(0,28,51,0.08); box-sizing: border-box;padding-top: 15px;box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);}
+.matches .item .center_block .player{position: relative; background-color: #fff;border-radius: 8px;width: 49.5%;border: 1px solid #dddddd; box-sizing: border-box;padding-top: 15px;box-shadow: 0px 0px 12px 0px rgba(0,53,96,0.12);}
 .matches .item .center_block .player .center_block_info{padding: 0 50px 16px 20px;}
 .matches .item .center_block .player .graphs-right{top: 0;right: 17px;width: 22px;justify-content: space-between;}
 .matches .item .center_block .player .graphs-right > div > span{color: #424a52;text-align: center;margin-left: -1px;}
