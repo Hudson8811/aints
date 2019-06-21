@@ -181,9 +181,12 @@ $('.header .row .right_side.autorized .profile-block .avatar').click (function()
 
 
 
-$('.input-block ul li').click(function() {
+$('.input-block ul.hide li').click(function() {
 $(this).parent().prev().prev().val($(this).text());
+$(this).parent().prev().prev().prev().text(" ");
 
+$("div.content").remove()
+$(this).clone().appendTo(".inf");
 $(this).parent().parent().toggleClass('active');
 });
 
@@ -192,3 +195,6 @@ $('.input-block.dr-menu').click (function(){
   $(this).children().next().slideToggle();
  
 });
+
+
+
