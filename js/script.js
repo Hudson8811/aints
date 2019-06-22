@@ -185,7 +185,7 @@ $('.input-block ul.hide li').click(function() {
 $(this).parent().prev().prev().val($(this).text());
 $(this).parent().prev().prev().prev().text(" ");
 
-$("div.content").remove()
+$(".inf").remove()
 $(this).clone().appendTo(".inf");
 $(this).parent().parent().toggleClass('active');
 });
