@@ -74,6 +74,7 @@
 .under-header .container .right_side .icons_block > div img{height: 17px;max-width: 100%;}
 .under-header .container .right_side .icons_block div + div img{height: 32px;}
 .under-header .container .right_side .icons_block > div+div{margin-left: 5px;}
+.under-header .container .right_side .icons_block > div.zinz-big .accountant{z-index: 6000;}
 .quest_icon{box-sizing: border-box;border-radius: 50%;font-size: 12px;line-height: 15px;border: 1px solid #dddddd;height: 17px;width: 17px;text-align: center;color: #dddddd;}
 
 .under-header .container .right_side{align-items: center;position: relative;padding-left: 15px;}
