@@ -77,23 +77,34 @@ $('.shadow-container').click(function() {
 });
 });
 $(function() {
-$('.under-header .container .left_side div.link').click(function() {
-    $(this).toggleClass("zinz-big");
-     $(this).children(".drop-games").slideToggle();
-     $(".shadow-container").show();
+$('.under-header .container .left_side div.link img').click(function() {
+    $(this).parent().toggleClass("zinz-big");
+     $(this).parent().children(".drop-games").slideToggle();
+     $(".shadow-container").toggle();
      
 
 });
 });
 $(function() {
-$('.under-header .container .right_side .icons_block > div').click(function() {
-    $(this).toggleClass("zinz-big");
-     $(this).children(".drop-games").slideToggle();
-     $(".shadow-container").show();
+$('.under-header .container .right_side .icons_block > div img').click(function() {
+    $(this).parent().toggleClass("zinz-big");
+     $(this).parent().children(".drop-games").slideToggle();
+     $(".shadow-container").toggle();
      
 
 });
 });
+
+
+$(function() {
+$('.drop-games .item').click(function() {
+    $(this).toggleClass("active");
+
+     
+
+});
+});
+
 
 
  $( function() {
@@ -186,7 +197,7 @@ $(this).parent().prev().prev().val($(this).text());
 $(this).parent().prev().prev().prev().text(" ");
 
 $(".inf").remove()
-$(this).clone().appendTo(".inf");
+$(this).clone().parent().prev().prev().appendTo();
 $(this).parent().parent().toggleClass('active');
 });
 
