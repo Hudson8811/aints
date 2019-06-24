@@ -68,6 +68,7 @@ $(function() {
 $('.shadow-container').click(function() {
 
      $(this).hide();
+     $(".blur").removeClass("blur");
      $(".zinz-big").removeClass("zinz-big");
       $(".header .mobile-menu").hide();
       $(".header .row nav.drop-down").hide();
@@ -76,6 +77,8 @@ $('.shadow-container').click(function() {
 
 });
 });
+
+/*
 $(function() {
 $('.under-header .container .left_side div.link img').click(function() {
     $(this).parent().toggleClass("zinz-big");
@@ -85,8 +88,11 @@ $('.under-header .container .left_side div.link img').click(function() {
 
 });
 });
+*/
 $(function() {
 $('.under-header .container .right_side .icons_block > div img').click(function() {
+      $("main,.header,.under-header .container .left_side .link,.under-header .container .right_side .premium-btn,.under-header .container .right_side .current-filters,.under-header .container .right_side .icons_block > div,.footer").toggleClass("blur");
+     $(this).parent().removeClass("blur");
     $(this).parent().toggleClass("zinz-big");
      $(this).parent().children(".drop-games").slideToggle();
      $(".shadow-container").toggle();
@@ -172,7 +178,7 @@ $('.slider').owlCarousel({
 
 
 $('.header .row .right_side.autorized .profile-block .avatar').click (function(){
-
+$("main,.header .main-menu,.logo, .under-header .container .left_side .link,.under-header .container .right_side .premium-btn,.under-header .container .right_side .current-filters,.under-header .container .right_side .icons_block > div,.footer").toggleClass("blur");
   $(this).prev().toggleClass("zinz-big");
     $(this).parent().toggleClass("active");
      $(".shadow-container").slideToggle();
