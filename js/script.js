@@ -90,7 +90,7 @@ $('.under-header .container .left_side div.link img').click(function() {
 });
 */
 $(function() {
-$('.under-header .container .right_side .icons_block > div img').click(function() {
+$('.under-header .container .right_side .icons_block > div .img').click(function() {
       $("main,.header,.under-header .container .left_side .link,.under-header .container .right_side .premium-btn,.under-header .container .right_side .current-filters,.under-header .container .right_side .icons_block > div,.footer").toggleClass("blur");
      $(this).parent().removeClass("blur");
     $(this).parent().toggleClass("zinz-big");
@@ -181,7 +181,7 @@ $('.header .row .right_side.autorized .profile-block .avatar').click (function()
 $("main,.header .main-menu,.logo, .under-header .container .left_side .link,.under-header .container .right_side .premium-btn,.under-header .container .right_side .current-filters,.under-header .container .right_side .icons_block > div,.footer").toggleClass("blur");
   $(this).prev().toggleClass("zinz-big");
     $(this).parent().toggleClass("active");
-     $(".shadow-container").slideToggle();
+     $(".shadow-container").toggle();
   $(this).next().slideToggle();
   $(".header .mobile-menu").hide();
 
