@@ -256,15 +256,17 @@
        </div>
             <form class="db" action="#" method="post" id="form-login" > 
                 
-
-               <input type="text" class="db inputbox" required  name="name" placeholder="Введите имя">
-               <input type="password" class="db inputbox" required name="password" placeholder="Пароль">
-                <button type="submit" class="button btn w100 db" name="call-submit"><span>Авторизоваться</span></button>
+               <div class="input-block">  
+                    <input type="text" placeholder=" " required name="name"> 
+                    <label>Введите имя</label>
+                </div>
+                <div class="input-block">  
+                        <input type="password" placeholder=" " required name="password"> 
+                        <label>Пароль</label>
+                </div>
+                <button type="submit" class="button btn w100 db btn_end-reg" name="call-submit"><span>Авторизоваться</span></button>
                 <input autocomplete="off" type="hidden" value=""  class="call-control" >
             </form>
-            <div class="social-widjet m0a">
-                <img src="img/social-widget.jpg" alt="" class="db m0a">
-            </div>
             
           <div class="b-modal_close arcticmodal-close cp rotate"></div>  
     </div>
@@ -278,15 +280,59 @@
             <form class="db" action="#" method="post" id="form-regisrty"> 
                 
 
-               <input type="email" class="db inputbox" required name="name" placeholder="Эл. почта">
-               <input type="password" class="db inputbox" required name="password" placeholder="Пароль">
-               <input type="password" class="db inputbox" required name="password" placeholder="Повторите Пароль">
+               <div class="input-block">  
+                    <input type="email" placeholder=" " required name="name"> 
+                    <label>Эл. почта</label>
+                </div>
+               <div class="input-block">  
+                        <input type="text" placeholder=" " required name="password"> 
+                        <label>Ваш ник</label>
+                </div>
+
                 <button type="submit" class="button btn w100 db" name="call-submit"><span>Регистрация</span></button>
                 <input autocomplete="off" type="hidden" value=""  class="call-control" >
             </form>
-            <div class="social-widjet m0a">
-                <img src="img/social-widget.jpg" alt="" class="db m0a">
-            </div>
+            
+          <div class="b-modal_close arcticmodal-close cp rotate"></div>  
+    </div>
+</div>
+
+<div class="b-modal modal--form"  id="regisry_end">
+    <div class="modal_content">
+       <div class="top_buttons d-flex">
+           <a class="active m0a">Регистрация <br>
+            завершена!</a>
+
+       </div>
+            <form class="db"> 
+                
+            <img src="img/end-reg.png" alt="">
+               <p class="alCenter">
+                   Для активации аккаунта перейдите по ссылке, указанной в вашем письме
+               </p>
+                <button class="button btn w100 db btn-close" ><span>Закрыть</span></button>
+                
+            </form>
+            
+          <div class="b-modal_close arcticmodal-close cp rotate"></div>  
+    </div>
+</div>
+
+<div class="b-modal modal--form"  id="quest-form">
+    <div class="modal_content">
+       <div class="top_buttons d-flex">
+           <a class="active m0a">Спасибо за вопрос!</a>
+
+       </div>
+            <form class="db"> 
+                
+            <img src="img/mail-icon.png" alt="">
+               <p class="alCenter">
+                  Ответим в течении 30 минут по Эл. почте
+               </p>
+                <button class="button btn w100 db arcticmodal-close" ><span>Закрыть</span></button>
+                
+            </form>
             
           <div class="b-modal_close arcticmodal-close cp rotate"></div>  
     </div>
