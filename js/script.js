@@ -199,19 +199,39 @@ $("main,.header .main-menu,.logo, .under-header .container .left_side .link,.und
 
 
 $('.input-block ul.hide li').click(function() {
+  /*
 $(this).parent().prev().prev().val($(this).text());
 $(this).parent().prev().prev().prev().text(" ");
 
-$(".inf").remove()
-$(this).clone().parent().prev().prev().appendTo();
-$(this).parent().parent().toggleClass('active');
+*/
+$(".inf").removeClass("active");
+$(this).parent().prev().children().children().remove(".inf li");
+$(this).parent().prev().children().addClass("active");
+$(this).clone().appendTo(".inf.active");
+$(this).parent().parent().find("label").addClass("active");
+$(this).parent().parent().toggleClass("fully");
+$(this).parent().slideToggle();
+$(this).parent().parent().parent().parent().find(".all-value").addClass("active");
+
 });
 
-$('.input-block.dr-menu').click (function(){
+$('.input-block.dr-menu .zt200').click (function(){
   
-  $(this).children().next().slideToggle();
+ 
+  $(this).children().children().remove();
+  $(this).parent().toggleClass("active");
+   $(this).parent().has("fully").addClass("active");
+  $(this).parent().find("label").toggleClass("active");
+  $(this).parent().find("ul.hide").slideToggle();
+  $(this).parent().parent().parent().find(".all-value").removeClass("active");
  
 });
 
 
 
+$('.inside__page .tarifs-row .opportunities .table .item label').change (function(){
+  
+  $(this).parent().parent().toggleClass("active");
+  
+ 
+});

@@ -147,22 +147,22 @@
 
 @font-face {
     font-family: 'Whitney';
-    src: url('fonts/Whitney-MediumItalic.eot');
-    src: local('Whitney-MediumItalic'),
-        url('fonts/Whitney-MediumItalic.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Whitney-MediumItalic.woff') format('woff'),
-        url('fonts/Whitney-MediumItalic.ttf') format('truetype');
+    src: url('fonts/WhitneyMedium.eot');
+    src: local('WhitneyMedium'),
+		url('fonts/WhitneyMedium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/WhitneyMedium.woff') format('woff'),
+        url('fonts/WhitneyMedium.ttf') format('truetype');
     font-weight: 500;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Whitney';
-    src: url('fonts/Whitney-Medium.eot');
-    src: local('Whitney Medium Regular'), local('Whitney-Medium'),
-        url('fonts/Whitney-Medium.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Whitney-Medium.woff') format('woff'),
-        url('fonts/Whitney-Medium.ttf') format('truetype');
+    src: url('fonts/WhitneyMedium.eot');
+    src: local('WhitneyMedium'),
+		url('fonts/WhitneyMedium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/WhitneyMedium.woff') format('woff'),
+        url('fonts/WhitneyMedium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
