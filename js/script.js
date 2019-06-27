@@ -212,6 +212,11 @@ $(this).parent().parent().find("label").addClass("active");
 $(this).parent().parent().toggleClass("fully");
 $(this).parent().slideToggle();
 $(this).parent().parent().parent().parent().find(".all-value").addClass("active");
+$(this).addClass('active').siblings().removeClass('active');
+$(this).closest(".item").find("label input").prop('checked', true);
+$(this).closest(".item").addClass("active");
+$(this).parent().parent().toggleClass("active");
+$(this).parent().parent().parent().find("label").addClass("active");
 
 });
 
@@ -219,19 +224,33 @@ $('.input-block.dr-menu .zt200').click (function(){
   
  
   $(this).children().children().remove();
-  $(this).parent().toggleClass("active");
-   $(this).parent().has("fully").addClass("active");
-  $(this).parent().find("label").toggleClass("active");
+  
+   
+  $(this).parent().find("label").removeClass("active");
   $(this).parent().find("ul.hide").slideToggle();
-  $(this).parent().parent().parent().find(".all-value").removeClass("active");
+  
+
+  
+  if ($(this).parent().hasClass("active")) {
+    $(this).closest(".item").find("label input").prop('checked', false);
+    $(this).parent().parent().find("label").removeClass("active");
+    $(this).closest(".item").removeClass("active");
+    $(this).parent().removeClass("active");
+    $(this).parent().parent().parent().find(".all-value").removeClass("active");
+  } else {
+    $(this).parent().addClass("active");
+  }
  
 });
+
 
 
 
 $('.inside__page .tarifs-row .opportunities .table .item label').change (function(){
   
   $(this).parent().parent().toggleClass("active");
+
   
  
 });
+

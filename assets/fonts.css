@@ -178,16 +178,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Whitney';
-    src: url('fonts/Whitney-BlackItalic.eot');
-    src: local('Whitney-BlackItalic'),
-        url('fonts/Whitney-BlackItalic.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Whitney-BlackItalic.woff') format('woff'),
-        url('fonts/Whitney-BlackItalic.ttf') format('truetype');
-    font-weight: 500;
-    font-style: italic;
-}
 
 @font-face {
     font-family: 'Whitney Book';
@@ -233,16 +223,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Whitney';
-    src: url('fonts/Whitney-Black.eot');
-    src: local('Whitney-Black'),
-        url('fonts/Whitney-Black.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Whitney-Black.woff') format('woff'),
-        url('fonts/Whitney-Black.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-}
 
 @font-face {
     font-family: 'Whitney';
