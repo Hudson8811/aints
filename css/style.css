@@ -122,12 +122,12 @@ main.blur > div:not(.under-header){-webkit-filter: blur(4px);filter: blur(4px);;
 
 .modal--form h3{font-size: 20px;line-height: 23px;color: #000;}
 .modal--form form input{box-sizing: border-box;height: 52px;width: 100%;border-radius: 3px; border: 1px solid #e9eeee;color: #bebebe;font-size: 14px;line-height: 17px;padding: 0 22px;margin-top: 10px;}
-.modal--form button{margin: 40px 0 0; border-radius: 3px;height: 52px;background-color: #2eb036;color: #fff;font-size: 14px;line-height: 20px;;font-family: 'Whitney';font-size: 16px;font-weight: 600;text-transform: uppercase;}
+.modal--form button{margin: 40px 0 0; border-radius: 3px;height: 52px;background-color: #2eb036;color: #fff;font-size: 14px;line-height: 20px;;font-family: 'Whitney';font-size: 16px;font-weight: 500;text-transform: uppercase;}
 .b-modal_close{background-repeat: no-repeat;background-position: center center; background-image: url(../img/modal--close.png);height: 22px;width: 22px;position: absolute;top: 29px;right: 29px;}
 .modal--form .btns-ref{margin-top: 30px;	}
 .modal--form p{font-size: 16px;line-height: 24px;color: #a0a4a8;font-weight: 300;margin-top: 20px;font-family: 'Whitney';}
 .modal--form p a{color: #424a52;text-decoration: underline;}
-.modal--form p span{color: #424a52;font-weight: 600;}
+.modal--form p span{color: #424a52;font-family: "Whitney Book"}
 .modal--form img{display: block;margin: 45px auto;max-width: 100%;}
 .modal--form h2{font-size: 28px;line-height: 31px;color: #2eb036;font-weight: 500;font-family: 'Whitney';}
 .modal--form .count{position: absolute;left: -30px;color: #2eb036;top: 0;line-height: 52px;font-weight: 600;}
@@ -145,12 +145,15 @@ main.blur > div:not(.under-header){-webkit-filter: blur(4px);filter: blur(4px);;
 .inside__page{padding: 30px 0;z-index: 50;}
 .inside__page:before,.profile__page:before{content: '';position: absolute;top: 0;left: 0;width: 100%;height: 40px;background: linear-gradient(to bottom, rgba(66,74,82,0.2) 0%, rgba(66,74,82,0) 100%);z-index: -1;opacity: 0.6}
 .profile__page{z-index: 50;}
-.inside__page h1{font-size: 40px;line-height: 43px;color: #424A52;font-weight: 500;margin-bottom: 40px;}
-.inside__page .text__block{padding: 25px 40px;background-color: #fff;border-radius: 8px;-webkit-box-shadow: 0px 0px 12px 0px rgba(0,53,96,0.08);-moz-box-shadow: 0px 0px 12px 0px rgba(0,53,96,0.08);box-shadow: 0px 0px 12px 0px rgba(0,53,96,0.08);}
-.inside__page .text__block .logo{width: 141px;height: 37px;}
+.inside__page h1{font-size: 40px;line-height: 43px;color: #424A52;font-weight: 400;margin-bottom: 40px;font-family: "Whitney Book"}
+.inside__page .text__block{font-family: "Whitney"; padding: 28px;background-color: #fff;border-radius: 8px;-webkit-box-shadow: 0px 0px 12px 0px rgba(0,53,96,0.08);-moz-box-shadow: 0px 0px 12px 0px rgba(0,53,96,0.08);box-shadow: 0px 0px 12px 0px rgba(0,53,96,0.08);}
+.inside__page .text__block.big_padding{padding: 40px;}
+.inside__page .text__block .logo{width: 141px;height: 48px;}
+.inside__page .text__block .logo span{background-position: left}
+.inside__page .text__block img{max-width: 100%;max-height: 300px;margin-top: 10px;}
 .inside__page .text__block+.text__block{margin-top: 16px;}
-.inside__page .text__block h2{font-size: 28px;color: #424A52; line-height: 31px;font-weight: 500;margin-bottom: 35px;}
-.inside__page .text__block p{font-size: 18px;line-height: 34px;color: #424A52;}
+.inside__page .text__block h2{font-size: 28px;color: #424A52; line-height: 31px;font-weight: 500;margin-bottom: 20px;font-family: "Whitney"}
+.inside__page .text__block p{font-size: 18px;line-height: 34px;color: #424A52;font-family: "Whitney Book" }
 .inside__page .text__block p a{color: #333333;text-decoration: underline;}
 .inside__page .text__block p+p{margin-top: 35px;}
 .inside__page .text__block.rackets--bg{position: relative;}
@@ -160,12 +163,13 @@ main.blur > div:not(.under-header){-webkit-filter: blur(4px);filter: blur(4px);;
 .inside__page .about_project .side-menu{width: 343px;margin-right: 30px;flex-shrink: 0;}
 
 .inside__page .about_project .side-menu ul{padding: 25px 0;box-sizing: border-box; border-radius: 8px;background-color: #fff;-webkit-box-shadow: 0px 0px 12px 0px rgba(0,53,96,0.12);-moz-box-shadow: 0px 0px 12px 0px rgba(0,53,96,0.12);box-shadow: 0px 0px 12px 0px rgba(0,53,96,0.12);}
-.inside__page .about_project .side-menu ul li a{font-size: 14px;line-height: 17px;text-transform: uppercase;color: #424A52;font-weight: 500; padding: 0 25px;position: relative;align-items: center;}
+.inside__page .about_project .side-menu ul li a{transition: 0.3s; font-size: 14px;line-height: 17px;text-transform: uppercase;font-weight: 500; padding: 0 25px;position: relative;align-items: center;color: rgb(160, 164, 168);}
+.inside__page .about_project .side-menu ul li:hover a{color: #424A52;}
 .inside__page .about_project .side-menu ul li a img{height: 20px;width: 20px; margin-right: 15px;}
 .inside__page .about_project .side-menu ul li+li{margin-top: 40px;}
 
 .inside__page .contact-block{padding: 25px 40px 0;background-color: #fff;border-radius: 8px;-webkit-box-shadow: 0px 0px 12px 0px rgba(0,53,96,0.08);-moz-box-shadow: 0px 0px 12px 0px rgba(0,53,96,0.08);box-shadow: 0px 0px 12px 0px rgba(0,53,96,0.08);}
-.inside__page .contact-block h2{font-size: 28px;color: #424A52; line-height: 31px;font-weight: 500;margin-bottom: 50px;}
+.inside__page .contact-block h2{font-size: 40px;color: #424A52; line-height: 43px;font-weight: 400;margin-bottom: 50px;font-family: "Whitney Book"}
 .inside__page .contact-block .item{padding-bottom: 80px;}
 .inside__page .contact-block .item:before{content: '';position: absolute;background-position: bottom;background-repeat: no-repeat; bottom: 0;left: 0;height: 100%;width: 1px;background-image: url(../img/big-lane.png);}
 .inside__page .contact-block .item:last-child:after{content: '';position: absolute;bottom: 0; background-position: bottom;background-repeat: no-repeat;right: 0;height: 100%;width: 1px;background-image: url(../img/big-lane.png);}
@@ -174,12 +178,13 @@ main.blur > div:not(.under-header){-webkit-filter: blur(4px);filter: blur(4px);;
 .inside__page .contact-block .item .phone a{text-align: center;font-size: 22px;line-height: 44px;}
 .inside__page .contact-block .item .phone img{margin-left: -16px;}
 
-.inside__page .contact--form{position: relative; border-radius: 8px;box-sizing: border-box;padding: 30px 20px 20px 100px;background-color: #fff;}
-.inside__page .contact--form h2{font-size: 28px;line-height: 31px;color: #424a52;font-weight: 500;margin-bottom: 30px;}
+.inside__page .contact--form{position: relative; border-radius: 8px;box-sizing: border-box;padding: 28px; background-color: #fff;}
+.inside__page .contact--form h2{font-size: 28px;line-height: 31px;color: #424a52;font-weight: 500;margin-bottom: 30px;font-family: "Whitney";}
 .inside__page .contact--form .left_side{width: 286px;flex-shrink: 0;margin-right: 20px;}
 .inside__page .contact--form .left_side .input-block+.input-block{margin-top: 25px;}
 .inside__page .contact--form .textarea{height: 157px;margin-top: 0;}
-.inside__page .contact--form .button{width: 150px;height: 40px;background-color: #fff;color: #2eb036;font-size: 14px;border: 1px solid #2eb036;box-sizing: border-box;border-radius: 5px;margin-top: 20px;}
+.inside__page .contact--form .button{transition: 0.3s;font-family: "Whitney"; width: 150px;height: 40px;background-color: #fff;color: #2eb036;font-size: 14px;border: 1px solid #2eb036;box-sizing: border-box;border-radius: 5px;margin-top: 20px;}
+.inside__page .contact--form .button:hover{background-color: #2eb036;color: #fff;opacity: 1;}
 .inside__page .about_project .row-radios{margin-top: 20px;}
 .inside__page .about_project .row-radios label+label{margin-left: 10px;}
 .inside__page .about_project .row-radios label b{display: block;width: 76px;height: 44px;padding: 0;border-radius: 7px;}
@@ -191,19 +196,23 @@ main.blur > div:not(.under-header){-webkit-filter: blur(4px);filter: blur(4px);;
 .inside__page .about_project .row-radios-big label{box-sizing: border-box;float: left;width: 25%;margin-bottom: 20px;padding-right: 20px;}
 .inside__page .about_project .row-radios-big label b{transition: 0.3s; display: block;width: 99%;height: 150px; padding: 1px;border-radius: 5px;}
 .inside__page .about_project .row-radios-big label b span{transition: 0.3s; background-size: 50% 50%; display: block;height: 100%;background-color: #fff;border-radius: 5px;}
-.inside__page .about_project .row-radios-big label input:checked+b{background: linear-gradient(135deg, #0d61ab 1%,#f24946 100%);}
+
 .inside__page .about_project .row-radios-big label input:checked+b span{background-color: transparent;}
 
-.inside__page .about_project .rating--block{position: relative; border-radius: 8px;box-sizing: border-box;padding: 30px 20px 20px 30px;background-color: #fff;background-position: right;background-repeat: no-repeat;background-size: contain;}
+.inside__page .about_project .rating--block{font-family: "Whitney"; position: relative; border-radius: 8px;box-sizing: border-box;padding: 28px 390px 28px 28px;background-color: #fff;background-position: right;background-repeat: no-repeat;background-size: contain;}
 .inside__page .about_project .rating--block h2{align-items: center;font-size: 25px;line-height: 28px;color: #424a52;font-weight: 500;}
 .inside__page .about_project .rating--block h2 img{width: 40px;margin-right: 20px;flex-shrink: 0;}
-.inside__page .about_project .rating--block p{font-size: 18px;line-height: 34px;color: #424a52;margin-top: 10px;}
+.inside__page .about_project .rating--block p{font-size: 18px;line-height: 34px;color: #424a52;margin-top: 10px;font-weight: 300;}
 .inside__page .about_project .side-menu ul li.curent a:before{content: '';position: absolute;top: 50%;height: 32px;width: 32px;right: 13px;margin-top: -16px;background-image: url(../img/inside_menu-icons/arrow.png);}
 .inside__page .about_project .side-menu ul li img:nth-child(1){display: block;}
 .inside__page .about_project .side-menu ul li img:nth-child(2){display: none;}
 .inside__page .about_project .side-menu ul li.curent img:nth-child(1){display: none;}
 .inside__page .about_project .side-menu ul li.curent img:nth-child(2){display: block;}
 .inside__page .about_project .side-menu ul li.curent a{color: #2eb036;}
+.inside__page .about_project .side-menu.type-2 ul li.curent a{color: #ff8800;}
+.inside__page .about_project .side-menu.type-2 ul li a img{opacity: 0.5;}
+.inside__page .about_project .side-menu.type-2 ul li.curent a img{opacity: 1;}
+.inside__page .about_project .side-menu.type-2 ul li.curent a:before{background-image: url(../img/arrow-orange.svg);}
 .inside__page .under--title{font-size: 18px;line-height: 24px;color: #3d3d3d;font-weight: 300;}
 .inside__page .under--title .green{color: #2eb036;}
 .inside__page .main-options{background-color: #fff;border-radius: 10px;padding-top: 30px;box-sizing: border-box;-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);padding-bottom: 27px;}
@@ -213,8 +222,12 @@ main.blur > div:not(.under-header){-webkit-filter: blur(4px);filter: blur(4px);;
 .inside__page .main-options .form .line label{color: #525252;font-weight: 700;font-size: 14px;line-height: 34px;margin-bottom: 5px;}
 .inside__page .main-options .form .row .inputbox{border-radius: 3px; max-width: 337px;width: 100%;background-color: #f4f4f4;padding: 0 20px;height: 52px;margin-right: 20px;}
 .inside__page .main-options .form .row button{height: 52px;width: 180px;border-radius: 3px;border: 1px solid #a0a4a8;background-color: #fff;font-size: 14px;line-height: 17px;color: #a0a4a8;flex-shrink: 0;}
-.inside__page .about_project .container-content{margin-top: 19px;justify-content: space-between;}
-.inside__page .about_project .container-content .item{position: relative; border-radius: 8px;box-sizing: border-box;padding: 30px 20px 20px 100px;background-color: #fff;}
+.inside__page .about_project .container-content{margin-top: 28px;justify-content: space-between;font-family: "Whitney"}
+.inside__page .about_project .container-content .item{position: relative; border-radius: 8px;box-sizing: border-box;padding: 30px 20px 20px 100px;background-color: #fff;box-shadow: 0px 0px 12px 0px rgba(0,53,96,0.12)}
+.inside__page .about_project .container-content .item.big-padding{;padding: 39px 20px 39px 125px;}
+.inside__page .about_project .container-content .item.big-padding img.abs{top: 28px;left: 40px;height: 72px;width: 72px;}
+.inside__page .about_project .container-content .item.w49{width: 48.8%;}
+.inside__page .about_project .container-content .item .left-lane{height: 100%;top: 0;left: 0;width: 4px;border-bottom-left-radius: 10px;border-top-left-radius: 10px;position: absolute;}
 .inside__page .about_project .container-content .item img.abs{position: absolute;top: 20px;left: 20px;}
 .inside__page .about_project .container-content .item h3{font-size: 22px;line-height: 25px;font-weight: 500;}
 .inside__page .about_project .container-content .item h4{font-size: 18px;line-height: 22px;}
@@ -222,7 +235,7 @@ main.blur > div:not(.under-header){-webkit-filter: blur(4px);filter: blur(4px);;
 .inside__page .about_project .container-content .item p.mt0{margin-top: 0;}
 .inside__page .about_project .container-content .item p a{color: #333333;text-decoration: underline;}
 .inside__page .about_project .container-content .item.donate-form .input-block{margin-top: 20px;}
-.inside__page .about_project .container-content .item button{background-color: #fff; margin-top: 13px;width: 127px;height: 40px;border-radius: 3px;font-size: 12px;line-height: 15px;font-weight: 500;color: #a0a4a8;text-transform: uppercase;border: 1px solid #a0a4a8;}
+.inside__page .about_project .container-content .item button{background-color: #fff; margin-top: 13px;width: 127px;height: 40px;border-radius: 3px;font-size: 14px;line-height: 16px;font-weight: 500;color: #a0a4a8;text-transform: uppercase;border: 1px solid #a0a4a8;font-family: "Whitney"}
 .inside__page .logs{background-color: #fff;border-radius: 10px;padding-top: 30px;box-sizing: border-box;-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);margin-top: 40px;}
 .inside__page .logs .logs-title{justify-content: space-between;padding: 0 30px;font-weight: 300;align-items: flex-end;}
 .inside__page .logs .logs-title h2{font-size: 28px;line-height: 32px;color: #525252;}
@@ -232,19 +245,30 @@ main.blur > div:not(.under-header){-webkit-filter: blur(4px);filter: blur(4px);;
 .inside__page .logs .table .tr .tbc:first-child{padding-left: 30px;}
 .inside__page .logs .table .tr .tbc:last-child{padding-right: 30px;font-weight: 700;text-align: right;}
 
-.inside__page .faq .faq__left-side .item{padding-top: 30px;background-color: #fff;-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);border-radius: 11px;width: 100%; margin-bottom: 30px;}
+.inside__page .faq .faq__left-side .item{padding-top: 30px;box-shadow: 0px 0px 12px 0px rgba(0,53,96,0.12);background-color: #fff; border-radius: 8px;width: 100%; margin-bottom: 28px;}
 
 
-.inside__page .faq{justify-content: space-between;align-items: flex-start;}
+.inside__page .faq{justify-content: space-between;align-items: flex-start;font-family: "Whitney"}
 .inside__page .faq .faq__left-side{align-items: flex-start;}
 .inside__page .faq .faq__left-side .item .item-title{padding: 0 30px 25px;align-items: center;}
 .inside__page .faq .faq__left-side .item .item-title .icon{flex-shrink: 0;height: 35px;width: 35px;margin-right: 20px;}
 .inside__page .faq .faq__left-side .item .item-title .icon span{background-repeat: no-repeat;background-position: center center;}
-.inside__page .faq .faq__left-side .item .item-title h2{font-size: 28px;line-height: 32px;color: #525252;}
+.inside__page .faq .faq__left-side .item .item-title h2{font-size: 28px;line-height: 32px;color: #525252;font-weight: 500;}
 .inside__page .faq .faq__left-side .item .title-ac,.inside__page .faq .faq__left-side .item  .body-ac{box-sizing: border-box;padding: 0 30px;}
-.inside__page .faq .faq__left-side .item .title-ac{position: relative; height: 60px;align-items: center;border-top: 1px dashed #dddddd;font-size: 16px;line-height: 20px;color: #525252;font-weight: 300;cursor: pointer;}
-.inside__page .faq .faq__left-side .item .title-ac:before{content: '';position: absolute;top: 50%;right: 30px;height: 7px;width: 14px;margin-top: -3.5px;background-image: url(../img/faq-arrow.png);transition: 0.3s;}
-.inside__page .faq .faq__left-side .item  .body-ac{padding-bottom: 20px;}
+.inside__page .faq .faq__left-side .item.orange .title-ac:before{background-image: url(../img/arrow-faq-orange.svg);}
+.inside__page .faq .faq__left-side .item.orange .title-ac.ui-accordion-header-active:after{content: '';position: absolute;left: 0;top: 0;width: 4px;height: 100%;background-color: #ffae38;}
+.inside__page .faq .faq__left-side .item.orange .title-ac.ui-accordion-header-active{color: #ffae38;}
+.inside__page .faq .faq__left-side .item.orange .ui-accordion-content-active:before{content: '';position: absolute;left: 0;top: 0;width: 4px;height: 100%;background-color: #ffae38;}
+
+.inside__page .faq .faq__left-side .item.red .title-ac:before{background-image: url(../img/arrow-faq-red.svg);}
+.inside__page .faq .faq__left-side .item.red .title-ac.ui-accordion-header-active:after{content: '';position: absolute;left: 0;top: 0;width: 4px;height: 100%;background-color: #e66767;}
+.inside__page .faq .faq__left-side .item.red .title-ac.ui-accordion-header-active{color: #e66767;}
+.inside__page .faq .faq__left-side .item.red .ui-accordion-content-active:before{content: '';position: absolute;left: 0;top: 0;width: 4px;height: 100%;background-color: #e66767;}
+.inside__page .faq .faq__left-side .item .title-ac{position: relative; height: 60px;align-items: center;border-top: 1px dashed #dddddd;font-size: 14px;line-height: 20px;color: #a0a4a8;font-weight: 500;cursor: pointer;text-transform: uppercase;}
+.inside__page .faq .faq__left-side .item .title-ac:before{content: '';position: absolute;top: 50%;right: 30px;height: 6px;width: 12px;margin-top: -3px;background-image: url(../img/faq-arrow.png);transition: 0.3s;background-position: center;background-repeat: no-repeat;}
+.inside__page .faq .faq__left-side .item  .body-ac{padding-bottom: 20px;position: relative;font-size: 16px;line-height: 21px;font-weight: 300;color: #a0a4a8;}
+.inside__page .faq .faq__left-side .item  .body-ac p+p{margin-top: 20px;}
+.inside__page .faq .faq__left-side .item  .body-ac img{max-height: 300px;max-width: 100%;margin-top: 10px;}
 .inside__page .faq .faq__left-side .item .title-ac.ui-accordion-header-active:before{transform: rotate(180deg);}
 .inside__page .faq .faq__form{margin-top: 20px;	 max-width: 420px;width: 100%; background-color: #fff;-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);border-radius: 11px;box-sizing: border-box;padding: 30px;}
 .inside__page .faq .faq__form span{font-size: 16px;line-height: 20px;color: #2eb036;font-weight: 500;}
@@ -594,7 +618,7 @@ background: linear-gradient(to bottom, rgba(33,189,6,1) 0%, rgba(247,202,0,1) 10
 
 .profile__page .content-block .double-block .left_side .ref-block{margin-top: 12px;	}
 .profile__page .content-block .double-block .left_side .ref-block h3{font-size: 16px;line-height: 24px;color: #424A52;font-weight: 600;}
-.profile__page .content-block .double-block .left_side .ref-block a{font-size: 12px;line-height: 16px;color: #A0A4A8;border-bottom: 1px dashed #A0A4A8;}
+.profile__page .content-block .double-block .left_side .ref-block a{font-size: 12px;line-height: 16px;color: #A0A4A8;border-bottom: 1px dashed #A0A4A8;font-weight: 300;}
 .profile__page .content-block .double-block .left_side .ref-block .button{transition: 0.3s; margin-left: 50px;flex-shrink: 0; font-size: 14px;color: #2eb036;font-weight: 600;width: 273px;height: 38px;line-height: 38px;text-align: center;border: 1px solid #2eb036;border-radius: 4px;}
 .profile__page .content-block .double-block .left_side .ref-block .button:hover{background-color: #2eb036;color: #fff;opacity: 1;}
 
@@ -619,6 +643,13 @@ background: linear-gradient(to bottom, rgba(33,189,6,1) 0%, rgba(247,202,0,1) 10
 .input-block label.active{top: 0;font-size: 12px;z-index:900; width: auto !important	;}
 .input-block input:focus ~ label,.input-block input:not(:placeholder-shown) ~ label{top: 0;font-size: 12px;z-index: 3;}
 
+.textarea-block{position: relative;border-radius: 4px;}
+.textarea-block textarea{padding: 15px; position: relative; display: block;width: 100%;border: 1px solid #E6E7E9;box-sizing: border-box;background-color: transparent;z-index: 2;border-radius: 5px;font-size: 16px;font-weight: 600;letter-spacing: 1.2px;font-family: 'Whitney';}
+.textarea-block label{width: auto !important; font-size: 14px;line-height: 17px; position: absolute;left: 0;color: #A0A4A8;transition: 0.3s;background-color: #fff;transform: translateY(-50%);top: 20px;left: 15px;font-family: 'Whitney Book';}
+.textarea-block textarea:focus ~ label,.textarea-block textarea:not(:placeholder-shown) ~ label{top: 0;font-size: 12px;z-index: 3;}
+
+
+
 .input-block ul.hide{top: 51px; box-shadow: 0px 9px 20px 0px rgba(0,53,96,0.20);z-index: 1000;border: 1px solid #dddddd;border-top: none; border-bottom-left-radius: 4px;border-bottom-right-radius: 4px; box-sizing: border-box;}
 .input-block ul{z-index: 550; border-bottom-right-radius: 5px;border-bottom-left-radius: 5px; top: 100%;width: 100%;left: 0;}
 .input-block ul.inf li{border: 1px solid #2eb036;border-radius: 5px;padding-right: 42px;color: #424a52;}
@@ -633,12 +664,13 @@ background: linear-gradient(to bottom, rgba(33,189,6,1) 0%, rgba(247,202,0,1) 10
 .input-block.dr-menu.active:after{transform: rotate(180deg);}
 .input-block.dr-menu.active input{border-bottom-right-radius: 0;border-bottom-left-radius: 0;  }
 .inside__page .about_project .rating-row{justify-content: space-between;margin-top: 20px;}
-.inside__page .about_project .rating-row .item{padding: 40px 40px 35px 120px;border-radius: 8px;background-color: #fff;}
+.inside__page .about_project .rating-row .item{padding: 40px 40px 35px 120px;border-radius: 8px;background-color: #fff;position: relative;}
+.inside__page .about_project .rating-row .item .left-lane{position: absolute;left: 0;height: 100%;width: 4px;top: 0;border-bottom-left-radius: 10px;border-top-left-radius: 10px;}
 .inside__page .about_project .rating-row .item img.abs{height: 60px;width: 60px;top: 30px;left: 30px;}
 .inside__page .about_project .rating-row .item h3{font-size: 22px;line-height: 25px;font-weight: 500;}
 
 .inside__page .about_project .rating-row .item .search-input{margin-top: 10px;}
-.inside__page .about_project .rating-row .item .search-input input{background-color: #f6f5f3;border-color: #f6f5f3;}
+.inside__page .about_project .rating-row .item .search-input input{background-color: #f6f5f3;border-color: #f6f5f3;height: 40px;font-weight: 300;}
 .inside__page .about_project .rating-row .item .search-input button{height: 14px;width: 14px;position: absolute;z-index: 3;top: 50%;margin-top: -7px;background:none;background-image: url(../img/lope.svg);right: 13px;}
 .inside__page .about_project .rating-row .item .list-players{margin-top: 30px;}
 .inside__page .about_project .rating-row .item .list-players .item-player{border-radius: 5px; height: 60px;align-items: center;justify-content: space-between;padding: 0 20px;}
@@ -654,7 +686,7 @@ background: linear-gradient(to bottom, rgba(33,189,6,1) 0%, rgba(247,202,0,1) 10
 .inside__page .tarifs-row .right_side{width: 343px;margin-left: 30px;flex-shrink: 0;}
 .inside__page .tarifs-row .right_side .banner-block{padding: 5px; background: linear-gradient(45deg, rgba(186,72,247,1) 0%,rgba(255,99,0,1) 100%);height: 83px;position: relative;border-radius: 8px;font-family: 'Whitney Book';}
 .inside__page .tarifs-row .right_side .banner-block:before{content: '';position: absolute;top: 0;left: 0;height: 100%;width: 100%;border-radius: 8px;background-image: url(../img/dots-bg.png);}
-.inside__page .tarifs-row .right_side .banner-block .border-block{flex-wrap: wrap; border: 1px dashed #fff; border-radius: 8px;padding-left: 25px;font-weight: 500; letter-spacing: -1px; ;align-items: center;font-size: 20px;line-height: 24px;color: #fff;}
+.inside__page .tarifs-row .right_side .banner-block .border-block{flex-wrap: wrap; border: 1px dashed #fff; border-radius: 8px;padding-left: 25px;font-weight: 500;;align-items: center;font-size: 20px;line-height: 24px;color: #fff;}
 .inside__page .tarifs-row .right_side .banner-block .border-block p{font-weight: 700;}
 .inside__page .tarifs-row .right_side .banner-block .border-block p span{font-weight: 500;font-size: 20px;width: 100%;}
 .inside__page .tarifs-row .right_side .payment-block{margin-top: 20px;background-color: #fff;box-sizing: border-box;padding: 30px 25px;border-radius: 8px;;box-shadow: 0px 0px 12px 0px rgba(0,53,96,0.12);font-family: 'Whitney';}
@@ -666,7 +698,7 @@ background: linear-gradient(to bottom, rgba(33,189,6,1) 0%, rgba(247,202,0,1) 10
 .inside__page .tarifs-row .right_side .payment-block .item-option .option-name{font-size: 14px;line-height: 19px;color: #424a52;font-weight: 600;width: 142px;margin-right: auto;margin-left: 8px;}
 .inside__page .tarifs-row .right_side .payment-block .item-option .days{font-size: 14px;line-height: 17px;color: #a0a4a8;font-family: 'Whitney Book';margin-right: auto;}
 .inside__page .tarifs-row .right_side .payment-block .item-option .value{color: #424a52;font-weight: 600;font-size: 16px;}
-.inside__page .tarifs-row .right_side .payment-block .item-option .value .rouble{font-weight: 700;}
+.inside__page .tarifs-row .right_side .payment-block .to-pay:hover .btn b{background-color: #a0a4a8;}
 .inside__page .tarifs-row .right_side .payment-block .to-pay{padding-top: 20px;padding-bottom: 20px;border-bottom: 1px solid #e7e8e9;margin-bottom: 20px;}
 .inside__page .tarifs-row .right_side .payment-block .to-pay .value{text-align: right;font-size: 24px;line-height: 27px;color: #a0a4a8;;font-family: 'Whitney Book';}
 .inside__page .tarifs-row .right_side .payment-block .to-pay .value span{font-family: 'Whitney';font-weight: 600;}
@@ -675,7 +707,7 @@ background: linear-gradient(to bottom, rgba(33,189,6,1) 0%, rgba(247,202,0,1) 10
 .inside__page .tarifs-row .right_side .payment-block .to-pay .value .rouble{font-weight: 700;}
 
 .inside__page .tarifs-row .right_side .payment-block .to-pay .btn label{margin-left: 7px;padding-left: 27px;}
-.inside__page .tarifs-row .right_side .payment-block .to-pay .btn b{left: 0;height: 20px;width: 20px;margin-top: -10px;top: 50%;border-radius: 1px;border: 1px solid #e5e5e5;background-color: #e5e5e5;border-radius: 5px;}
+.inside__page .tarifs-row .right_side .payment-block .to-pay .btn b{transition: 0.3s; left: 0;height: 20px;width: 20px;margin-top: -10px;top: 50%;border-radius: 1px;border: 1px solid #e5e5e5;background-color: #e5e5e5;border-radius: 5px;}
 .inside__page .tarifs-row .right_side .payment-block .to-pay .btn span{color: #a0a4a8;font-size: 14px;line-height: 25px;font-weight: 300;}
 .inside__page .tarifs-row .right_side .payment-block .to-pay .btn span sup{line-height: 0;}
 .inside__page .tarifs-row .right_side .payment-block .to-pay .btn input:checked+b{border: none;}
