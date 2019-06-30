@@ -94,7 +94,7 @@ $('.under-header .container .right_side .icons_block > div .img').click(function
       $("main,.header,.under-header .container .left_side .link,.under-header .container .right_side .premium-btn,.under-header .container .right_side .current-filters,.under-header .container .right_side .icons_block > div,.footer").toggleClass("blur");
      $(this).parent().removeClass("blur");
     $(this).parent().toggleClass("zinz-big");
-     $(this).parent().children(".drop-games").slideToggle();
+     $(this).parent().children(".drop-games").slideToggle(200);
      $(".shadow-container").toggle();
      
 
@@ -247,8 +247,19 @@ $('.input-block.dr-menu .zt200').click (function(){
 
 
 $('.inside__page .tarifs-row .opportunities .table .item label').change (function(){
-  
+  if ($(this).parent().parent().hasClass("active")) {
+      $(this).closest(".item").find("label input").prop('checked', false);
+      $(this).closest(".item").find("label.active").removeClass("active");
+      $(this).closest(".item").find(".inf li").remove();
+       $(this).closest(".item").find(".inf.active").removeClass("active");
+
+
+
+  };
   $(this).parent().parent().toggleClass("active");
+
+
+  
 
   
  
