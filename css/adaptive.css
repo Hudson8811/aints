@@ -519,6 +519,9 @@
 @media screen and (max-width: 375px){
 	.inside__page .contact-block .item a.number, .inside__page .contact-block .item span.title{left: 65px;}
 }
+@media screen and (max-width: 374px){
+		.matches .item .top_block .right_side > :not(div), .matches .item .top_block .right_side .icons-block a{padding: 0 4px;}
+}
 @media screen and (max-width: 360px){
 	.profile__page .content-block .tabs .tabs__caption li{font-size: 12px;}
 	.under-header .container .right_side{flex-wrap: wrap;justify-content: center;}
