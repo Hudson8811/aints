@@ -167,7 +167,7 @@ header, nav, section, article, aside, footer, main{display:block;}
 .g-hidden { display: none; }
 .g-line { zoom: 1; }
 .g-line:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
-.arcticmodal-overlay{opacity: 0.6 !important;}
+.arcticmodal-overlay{background-color: rgba(0,0,0,0.2) !important;}
 /* modal */
 .b-modal { position: relative; margin:0 auto;}
 .b-modal_close.new { background:url('../img2/x_close.png') no-repeat; width:16px; height:16px; cursor:pointer; z-index:400; position:absolute; right:13px; top:11px;}

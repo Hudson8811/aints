@@ -1,65 +1,159 @@
 $('.header .btn-login').click(function(){
-  $('#login_form').arcticmodal();
+  $('#login_form').arcticmodal({
+      beforeOpen: function(data, el) {
+        $("#wrapper").toggleClass("blur");
+    },
+    afterClose: function(data, el) {
+        $("#wrapper").toggleClass("blur");
+    }
+    });
  });
  
  $('.modal--form .btn-login').click(function(){
-  $('#login_form').arcticmodal();
+  $('#login_form').arcticmodal({
+      beforeOpen: function(data, el) {
+        $("#wrapper").toggleClass("blur");
+    },
+    afterClose: function(data, el) {
+        $("#wrapper").toggleClass("blur");
+    }
+    });
   $('#regisry_form').arcticmodal("close");
  });
 
 $('.btn-regisrty').click(function(){
-  $('#regisry_form').arcticmodal();
+  $('#regisry_form').arcticmodal({
+      beforeOpen: function(data, el) {
+        $("#wrapper").toggleClass("blur");
+    },
+    afterClose: function(data, el) {
+        $("#wrapper").toggleClass("blur");
+    }
+    });
   $('#login_form').arcticmodal("close");
  });
  
  $('.modal--form .forget_pass').click(function(){
   $('#login_form').arcticmodal("close");
-  $('#reset__pass').arcticmodal();
+  $('#reset__pass').arcticmodal({
+      beforeOpen: function(data, el) {
+        $("#wrapper").toggleClass("blur");
+    },
+    afterClose: function(data, el) {
+        $("#wrapper").toggleClass("blur");
+    }
+    });
  });
  
   $('.rating__item-info a').click(function(){
-  $('#about_premium').arcticmodal();
+  $('#about_premium').arcticmodal({
+      beforeOpen: function(data, el) {
+        $("#wrapper").toggleClass("blur");
+    },
+    afterClose: function(data, el) {
+        $("#wrapper").toggleClass("blur");
+    }
+    });
  });
 
 $('.ref-btn').click(function(){
-  $('#ref_form').arcticmodal();
+  $('#ref_form').arcticmodal({
+      beforeOpen: function(data, el) {
+        $("#wrapper").toggleClass("blur");
+    },
+    afterClose: function(data, el) {
+        $("#wrapper").toggleClass("blur");
+    }
+    });
 
  });
  
 $('#ref_form form button').click(function(){
   $('#ref_form').arcticmodal("close");
-   $('#ref-thanks').arcticmodal();
+   $('#ref-thanks').arcticmodal({
+      beforeOpen: function(data, el) {
+        $("#wrapper").toggleClass("blur");
+    },
+    afterClose: function(data, el) {
+        $("#wrapper").toggleClass("blur");
+    }
+    });
 
  });
  $('.inside__page .contact--form .button').click(function(){
-  $('#quest-thanks').arcticmodal();
+  $('#quest-thanks').arcticmodal({
+      beforeOpen: function(data, el) {
+        $("#wrapper").toggleClass("blur");
+    },
+    afterClose: function(data, el) {
+        $("#wrapper").toggleClass("blur");
+    }
+    });
 
  });
 
 $('.btn_end-reg').click(function(){
   $('#regisry_form').arcticmodal("close");
-  $('#regisry_end').arcticmodal();
+  $('#regisry_end').arcticmodal({
+      beforeOpen: function(data, el) {
+        $("#wrapper").toggleClass("blur");
+    },
+    afterClose: function(data, el) {
+        $("#wrapper").toggleClass("blur");
+    }
+    });
  });
 
 $('.matches .item .btn-graph').click(function(){
 
-  $('#mobile-graphs').arcticmodal();
+  $('#mobile-graphs').arcticmodal({
+      beforeOpen: function(data, el) {
+        $("#wrapper").toggleClass("blur");
+    },
+    afterClose: function(data, el) {
+        $("#wrapper").toggleClass("blur");
+    }
+    });
  });
 
 $('.all-info-btn-mobile').click(function(){
+  
+  $('#inform_mobile').arcticmodal({
+      beforeOpen: function(data, el) {
+        $("#wrapper").toggleClass("blur");
+    },
+    afterClose: function(data, el) {
+        $("#wrapper").toggleClass("blur");
+    }
+    });
 
-  $('#inform_mobile').arcticmodal();
+
+  
  });
 
 $('.tours-icon').click(function(){
 
-  $('#tournirs').arcticmodal();
+  $('#tournirs').arcticmodal({
+      beforeOpen: function(data, el) {
+        $("#wrapper").toggleClass("blur");
+    },
+    afterClose: function(data, el) {
+        $("#wrapper").toggleClass("blur");
+    }
+    });
  });
 
 
 $('.players-icon').click(function(){
 
-  $('#players-modal').arcticmodal();
+  $('#players-modal').arcticmodal({
+      beforeOpen: function(data, el) {
+        $("#wrapper").toggleClass("blur");
+    },
+    afterClose: function(data, el) {
+        $("#wrapper").toggleClass("blur");
+    }
+    });
  });
 
 
@@ -101,7 +195,7 @@ $('.burger-menu').click(function() {
 });
 $(function() {
 $('.shadow-container').click(function() {
-    $(".mobile--filters").slideToggle(300);
+    
      $(this).hide();
      $(".blur").removeClass("blur");
      $(".zinz-big").removeClass("zinz-big");
@@ -383,6 +477,15 @@ function windowSize(){
        $('.side-menu').click (function(){
           $(".mobile-menu-inside-page").show(200);
       });
+
+       $(function() {
+$('.shadow-container').click(function() {
+    $(".mobile--filters").slideToggle(300);
+    
+
+});
+});
+
 
 
 }

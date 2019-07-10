@@ -35,7 +35,7 @@
 	
 }
 @media screen and (max-width: 1024px){
-		
+	.footer{display: none;}
 	.shadow-container{background-color: rgba(255,255,255,0.8);}
 	.header .row .right_side.autorized .profile-block .left_info{display: none;}
 	.drop-games .item{max-width: 340px;margin: 0 auto;background-color: #fff;}
@@ -340,6 +340,7 @@
 	.input-block.select-block  ul.inf li{height: 52px;line-height: 52px;border: 1px solid #E6E7E9}
 	.inside__page .about_project .side-menu ul:before{content: '';position: absolute;top: 0;left: 0;width: 100%;height: 100%;z-index: 500;}
 	.accountant{display: none;}
+	.matches .item .center_block .player .center_block_info .right_side .name{font-size: 14px;}
 }	
 @media screen and (max-width: 900px){
 	.tx__page .image_cat .row .fleft{width: 33.3%;}
@@ -411,6 +412,7 @@
 	.matches .item .center_block{margin: 0;}
 	.matches .item .center_block .player .center_block_info .right_side .stats .other-info{right: 10px;}
 	.matches .item .center_block .player.item__right-player{flex-direction: column;padding-top: 3px;	}
+	.matches .item .center_block .player.item__right-player .bottoms_grahps .right_side{padding-top: 7px;}
 	.matches .item .center_block .player.item__right-player .center_block_info .player-info-top{flex-direction: column-reverse;}
 	.matches .item .center_block .player.item__right-player .center_block_info .player-info-top .right_side{display: flex;flex-direction: column-reverse;margin-top: 5px;	}
 	.matches .item .center_block .player.item__right-player .center_block_info .player-info-top .right_side .name{margin-top: 5px;	}
