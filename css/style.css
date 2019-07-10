@@ -1167,7 +1167,6 @@ background: linear-gradient(to bottom, rgba(33,189,6,1) 0%, rgba(247,202,0,1) 10
 
 
 .b-modal.tournirs{height: 100%;max-width: 350px;margin: 60px auto 0;}
-.b-modal.tournirs
 
 .swiper-pagination{counter-reset:myCounter;margin-top: 20px;}
 .swiper-pagination-bullet{opacity: 1; list-style: none;font-size: 14px;color: #353535;line-height: 17px;}
@@ -1207,7 +1206,7 @@ background: linear-gradient(to bottom, rgba(33,189,6,1) 0%, rgba(247,202,0,1) 10
 
 .tournirs .modal_content{max-width: 350px;margin: 0 auto;}
 
-.tournirs .modal_content .b-modal_close{top: -40px;right: -10px;}
+.tournirs .modal_content .b-modal_close{top: -40px;right: 6px;background-image: url(../img/close-white.svg);}
 .arcticmodal-container_i2{padding: 40px 16px;}
 
 .mobile-menu-inside-page{position: fixed;background-color: rgba(255,255,255,0.8);height: 100%;width: 100%;left: 0;top: 0;z-index: 1010;}
