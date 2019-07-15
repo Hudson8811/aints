@@ -186,8 +186,8 @@ $('.burger-menu').click(function() {
      $(this).toggleClass("zinz-big");
      $(".header .row .logo").toggleClass("zinz-big");
      
-     $(".shadow-container").slideToggle();
-     $(".header .row .mobile-menu").slideToggle();
+     $(".shadow-container").toggle();
+     $(".header .row .mobile-menu").toggle(300);
      $(".header .row nav.drop-down").hide();
      
 
@@ -203,6 +203,7 @@ $('.shadow-container').click(function() {
       $(".header .row nav.drop-down").hide();
       $(".header .row .right_side.autorized .profile-block").removeClass("active"); 
       $(".drop-games").hide();
+      $(".header .row .right_side.autorized .profile-block .left_info").removeClass("active");
 
 });
 });
@@ -337,6 +338,8 @@ $("main,.header .main-menu,.logo, .under-header .container .left_side .link,.und
      $(".shadow-container").toggle();
   $(this).next().slideToggle();
   $(".header .mobile-menu").hide();
+  
+   $(".header .row .right_side.autorized .profile-block .left_info").toggleClass("active");
 
 
 
