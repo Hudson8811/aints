@@ -173,7 +173,11 @@ $(function() {
 $('.text__btn').click(function() {
 
      $(this).toggleClass("active");
+     $(".inside__page .about_project .rating--block").toggleClass("active");
       $(this).parent().find("p").children(".on_desktop").slideToggle();
+
+
+      
      
      
 
@@ -278,7 +282,9 @@ $('.awi-icon').click(function() {
 
 $('.inside__page .fixed-btn').click(function() {
      
-     $(".fixed_block").show("300");
+     $(".fixed_block").addClass("active");
+     $(".inside__page .tarifs-row .right_side .payment-block").addClass("active");
+     
 
 
 });
@@ -444,8 +450,8 @@ function windowSize(){
 
     if (!div.is(e.target) // если клик был не по нашему блоку
         && div.has(e.target).length === 0) { // и не по его дочерним элементам
-      
-    $(".fixed_block ").hide();
+      $(".inside__page .tarifs-row .right_side .payment-block").removeClass("active");
+    $(".fixed_block").removeClass("active");
 
     }
     });
