@@ -37,6 +37,12 @@
 	
 }
 */
+@media screen and (min-width: 1225px){
+	.matches .item .top_block .right_side .icons-block a.on_tablet_and_mobile{display: none;}
+	.swiper-container{overflow: visible;}
+	.matches .item:last-child .bottom_block .help-block .hover-block{top: auto;bottom: 100%;}
+}
+
 @media screen and (max-width: 1224px){
 	.inside__page .text__block.rackets--bg:before{top: 10px;}
 	.footer{display: none;}
@@ -464,7 +470,7 @@
 	.profile__page .content-block .options_block .row button{max-width: 100%;width: 100%;}
 	.profile__page .content-block .double-block .left_side .ref-block{flex-direction: column;}
 	.profile__page .content-block .double-block .left_side .ref-block .left-box{padding-top: 10px;	padding-bottom: 10px;	border-top: 1px solid #e7e8e9;border-bottom: 1px dashed #e7e8e9;}
-	.profile__page .content-block .double-block .left_side .ref-block .button{margin-left: 0;margin-top: 20px;	}
+	.profile__page .content-block .double-block .left_side .ref-block .button{min-width: 100%;width: 100%; margin-left: 0;margin-top: 20px;	}
 	.inside__page .about_project .container-content{flex-direction: column;}
 	.inside__page .about_project .container-content .item.w49,.inside__page .about_project .container-content .item{width: 100%;}
 	.inside__page .about_project .container-content .item+.item{margin-top: 16px;	}
@@ -523,7 +529,7 @@
 }
 @media screen and (max-width: 400px){
 	
-	.profile__page .content-block .table_block .item{padding: 0 10px;}
+	.profile__page .content-block .table_block .item{padding: 10px;height: auto;min-height: 60px;}
 	.profile__page .content-block .table_block .item .count{width: 30px;}
 	.matches .item-past .bottom_block{flex-direction: column;}
 	.inside__page .tarifs .payment form .row{flex-wrap: wrap;}
