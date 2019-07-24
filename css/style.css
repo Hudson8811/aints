@@ -204,10 +204,10 @@ main.blur > div:not(.under-header){-webkit-filter: blur(4px);filter: blur(4px);;
 .inside__page .contact--form .button:hover{border-color: #2eb036;color: #2eb036;opacity: 1;}
 .inside__page .about_project .row-radios{margin-top: 20px;}
 .inside__page .about_project .row-radios label+label{margin-left: 10px;}
-.inside__page .about_project .row-radios label b{display: block;width: 76px;height: 44px;padding: 0;border-radius: 7px;}
+.inside__page .about_project .row-radios label b{ display: block;width: 76px;height: 44px;padding: 0;border-radius: 7px;}
 .inside__page .about_project .row-radios label b span{ display: block;height: 100%;background-color: #fff;border-radius: 5px;}
 .inside__page .about_project .row-radios label input:checked+b{padding: 1px;box-sizing: border-box;}
-
+.inside__page .about_project .row-radios label:hover input + b{padding: 1px;box-sizing: border-box;}
 
 .inside__page .about_project .row-radios-big{margin-top: 20px;margin-right: -20px;}
 .inside__page .about_project .row-radios-big label{box-sizing: border-box;float: left;width: 25%;margin-bottom: 20px;padding-right: 20px;}
@@ -764,6 +764,7 @@ background: linear-gradient(to bottom, rgba(33,189,6,1) 0%, rgba(247,202,0,1) 10
 .inside__page .tarifs-row .right_side .payment-block .row-radios label b{display: block;width: 71px;height: 44px;border-radius: 7px;}
 .inside__page .tarifs-row .right_side .payment-block .row-radios label b span{display: block;height: 100%;background-color: #fff;border-radius: 5px;}
 .inside__page .tarifs-row .right_side .payment-block .row-radios label input:checked+b{box-sizing: border-box;padding: 1px;}
+.inside__page .tarifs-row .right_side .payment-block .row-radios label:hover input+b{box-sizing: border-box;padding: 1px;}
 .inside__page .tarifs-row .right_side .payment-block .button{font-size: 16px;line-height: 24px;color: #fff;font-weight: 500;text-transform: uppercase;background-color: #2eb036;height: 44px;border-radius: 5px;margin-top: 40px;font-family: 'Whitney';letter-spacing: 1.6px;}
 .inside__page .tarifs-row .opportunities{box-sizing: border-box;padding: 30px;background-color: #fff;border-radius: 8px;;box-shadow: 0px 0px 12px 0px rgba(0,53,96,0.12);}
 .inside__page .tarifs-row .opportunities h2{font-size: 28px;line-height: 31px;color: #424a52;font-weight: 500;margin-bottom: 25px;font-family: 'Whitney'}
