@@ -40,10 +40,13 @@
 @media screen and (min-width: 1225px){
 	.matches .item .top_block .right_side .icons-block a.on_tablet_and_mobile{display: none;}
 	.swiper-container{overflow: visible;}
+	.header .row .right_side.autorized .alert-icon.on_tablet_and_mobile{display: none !important;}
 	.matches .item:last-child .bottom_block .help-block .hover-block{top: auto;bottom: 100%;}
 }
 
 @media screen and (max-width: 1224px){
+	.inside__page .about_project .side-menu ul li a{text-align: center;}
+	.inside__page .about_project .side-menu ul li a i{margin-right: 0;text-align: center;}
 	.inside__page .text__block.rackets--bg:before{top: 10px;}
 	.footer{display: none;}
 	.header .row .right_side.autorized .profile-block .left_info{display: none;}
@@ -135,6 +138,7 @@
 	.matches .item .center_block .player .graphs-right > div{width: 4px;}
 	.matches .item .center_block .player .graphs-right .grath{height: 44px;}
 	.under-header{height: 52px;}
+
 	.pie__labels{   grid-row-gap: 1px;}
 	.pie__label-value{font-size: 10px;}
 	.header .row .right_side.autorized:before{display: none;}
@@ -142,8 +146,8 @@
 	.header .row .right_side.autorized .alert-icon{margin-right: 0;	padding: 0 11px;}
 	.header .row .right_side.autorized .profile-block .avatar{margin-left: 15px;height: 30px;width: 30px;}
 	.header .row .right_side.autorized .alert-icon+.alert-icon{margin-left: -1px;	}
-	.header .row .right_side.autorized .alert-icon:after{height: 60px;width: 1px;background-color: #e7e8e9;background-image: none;}
-	.header .row .right_side.autorized .alert-icon:before{height: 60px;width: 1px;background-color: #e7e8e9;background-image: none;}
+	.header .row .right_side.autorized .alert-icon:after{height: 52px;width: 1px;background-color: #e7e8e9;background-image: none;}
+	.header .row .right_side.autorized .alert-icon:before{height: 52px;width: 1px;background-color: #e7e8e9;background-image: none;}
 	.matches .item .center_block .player.item__right-player  .center_block_info{padding-left: 40px;padding-right: 13px;	}
 	.matches .item .center_block .player.item__right-player .player-icons{padding-top: 0;	}
 	.matches .item .center_block .player .graphs-right{display: flex;}

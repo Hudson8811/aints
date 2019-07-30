@@ -246,3 +246,187 @@
     font-style: italic;
 }
 
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?j6fzi2');
+  src:  url('fonts/icomoon.eot?j6fzi2#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?j6fzi2') format('truetype'),
+    url('fonts/icomoon.woff?j6fzi2') format('woff'),
+    url('fonts/icomoon.svg?j6fzi2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-About_Menu_1:before {
+  content: "\e900";
+}
+.icon-About_Menu_2:before {
+  content: "\e901";
+}
+.icon-About_Menu_3:before {
+  content: "\e902";
+}
+.icon-About_Menu_4:before {
+  content: "\e903";
+}
+.icon-About_Menu_5:before {
+  content: "\e904";
+}
+.icon-Arrow_Grey:before {
+  content: "\e905";
+}
+.icon-Arrow_Right:before {
+  content: "\e906";
+}
+.icon-Block:before {
+  content: "\e907";
+}
+.icon-Bookmarks:before {
+  content: "\e908";
+}
+.icon-Bookmarks_Menu:before {
+  content: "\e909";
+}
+.icon-Bookmarks_Pressed:before {
+  content: "\e90a";
+}
+.icon-Chart_Mobile:before {
+  content: "\e90b";
+}
+.icon-Checkbox_Active:before {
+  content: "\e90c";
+}
+.icon-Close_Modal_Dark:before {
+  content: "\e90d";
+}
+.icon-Currency_Grey:before {
+  content: "\e90e";
+}
+.icon-Filter_Players:before {
+  content: "\e90f";
+}
+.icon-Filter_Tournaments:before {
+  content: "\e910";
+}
+.icon-Gradient_Arrow:before {
+  content: "\e911";
+}
+.icon-Info_Game_Mobile:before {
+  content: "\e912";
+}
+.icon-Menu_1:before {
+  content: "\e913";
+}
+.icon-Menu_2:before {
+  content: "\e914";
+}
+.icon-Menu_3:before {
+  content: "\e915";
+}
+.icon-Menu_4:before {
+  content: "\e916";
+}
+.icon-Menu_5:before {
+  content: "\e917";
+}
+.icon-Menu_6:before {
+  content: "\e918";
+}
+.icon-Menu_Game_Mobile:before {
+  content: "\e919";
+}
+.icon-Menu_Mobile:before {
+  content: "\e91a";
+}
+.icon-Notification:before {
+  content: "\e91b";
+}
+.icon-Profile_Menu_1:before {
+  content: "\e91c";
+}
+.icon-Profile_Menu_2:before {
+  content: "\e91d";
+}
+.icon-Profile_Menu_3:before {
+  content: "\e91e";
+}
+.icon-Profile_Menu_4:before {
+  content: "\e91f";
+}
+.icon-Profile_Menu_5:before {
+  content: "\e920";
+}
+.icon-Profile_Menu_6:before {
+  content: "\e921";
+}
+.icon-Profile_No-photo:before {
+  content: "\e922";
+}
+.icon-Question_Circle:before {
+  content: "\e923";
+}
+.icon-Rating_Grey:before {
+  content: "\e924";
+}
+.icon-Rating_Menu_1_Pressed:before {
+  content: "\e925";
+}
+.icon-Rating_Menu_2_Pressed:before {
+  content: "\e926";
+}
+.icon-Rating_Menu_3_Pressed:before {
+  content: "\e927";
+}
+.icon-Rating_Menu_4_Pressed:before {
+  content: "\e928";
+}
+.icon-Rating_Menu_5_Pressed:before {
+  content: "\e929";
+}
+.icon-Rating_Menu_6_Pressed:before {
+  content: "\e92a";
+}
+.icon-Rating_Star:before {
+  content: "\e92b";
+}
+.icon-Search:before {
+  content: "\e92c";
+}
+.icon-Share:before {
+  content: "\e92d";
+}
+.icon-Social_FB:before {
+  content: "\e92e";
+}
+.icon-Social_Ins:before {
+  content: "\e92f";
+}
+.icon-Social_OK:before {
+  content: "\e930";
+}
+.icon-Social_Tel:before {
+  content: "\e931";
+}
+.icon-Social_Tw:before {
+  content: "\e932";
+}
+.icon-Social_VK:before {
+  content: "\e933";
+}
