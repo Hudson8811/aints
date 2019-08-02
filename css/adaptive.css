@@ -514,6 +514,7 @@
 	.inside__page .referals_page .table_block .table_title span{display: none;}
 }
 @media screen and (max-width: 450px){
+	.profile__page .content-block .table_block .item .nickname{max-width: 88px}
 	.inside__page .text__block.rackets--bg:before{top: auto;}
 	.inside__page .contact-block .item a.number, .inside__page .contact-block .item span.title{left: 97px;transform: none;}
 	.drop-games .item{width: 300px;}
