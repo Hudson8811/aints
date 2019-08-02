@@ -19,7 +19,7 @@ main{position: relative;}
 .header .row .main-menu li:hover a{color: #2EB036;}
 .header .row .right_side{align-items: center;}
 .header .row .right_side .attent{margin-right: 19px;height: 20px;line-height: 9px;font-size: 12px;line-height: 20px; width: 64px;height: 38px;border-left: 1px dashed #dddddd;border-right: 1px dashed #dddddd;background: center center no-repeat url(../img/lamp.png)}
-.header .row .right_side .select{position: relative;z-index: 999;min-width: 40px;border: none;background: none;padding: 0;}
+.header .row .right_side .select{opacity: 1; position: relative;z-index: 999;min-width: 40px;border: none;background: none;padding: 0;}
 .header .row .right_side .button{font-size: 12px;color: #2eb036;font-weight: 500;padding: 10.5px 18px;box-sizing: border-box; line-height: 15px;text-align: center;border: 1px solid #2eb036;border-radius: 5px;margin-left: 18px;}
 .header .row .right_side.autorized .attent{display: none;}
 .header .row .right_side.autorized .select{display: none;}
