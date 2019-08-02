@@ -813,12 +813,7 @@ background: linear-gradient(to bottom, rgba(33,189,6,1) 0%, rgba(247,202,0,1) 10
 .footer .foot-menu .row{margin: 0 auto;justify-content: space-between;align-items: center;}
 .footer .foot-menu .row .select{width: 71px;background: none;border-color: #5c5c5c;color: #a0a4a8;border-radius: 5px;padding-left: 7px;padding-left: 13px; height: 40px;line-height: 38px;font-family: 'Whitney Book';}
 .footer .foot-menu .row .nice-select:after{border-color: #5c5c5c;right: 9px;}
-.footer .foot-menu .row  .nice-select .list{top:auto; bottom: 100%;width: auto;   background-color: #fff;
-    
-    
-   
-  
-    right: 0;}
+.footer .foot-menu .row  .nice-select .list{transition: none; top:auto; bottom: 100%;width: auto;   background-color: #fff;right: 0;}
 .footer .foot-menu nav{height: 100%;}
 .footer .foot-menu nav ul{height: 100%;}
 .footer .foot-menu nav ul li{height: 100%;}
