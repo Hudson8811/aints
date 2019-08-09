@@ -284,6 +284,7 @@ $('.inside__page .fixed-btn').click(function() {
      
      $(".fixed_block").addClass("active");
      $(".inside__page .tarifs-row .right_side .payment-block").addClass("active");
+     $(".shadow-wrap").show();
      
 
 
@@ -338,7 +339,7 @@ $('.slider').owlCarousel({
 
 
 $('.header .row .right_side.autorized .profile-block .avatar').click (function(){
-$("main,.header .main-menu,.logo, .under-header .container .left_side .link,.under-header .container .right_side .premium-btn,.under-header .container .right_side .current-filters,.under-header .container .right_side .icons_block > div,.footer").toggleClass("blur");
+$("main,.header .main-menu,.logo, .under-header .container .left_side .link,.under-header .container .right_side .premium-btn,.under-header .container .right_side .current-filters,.under-header .container .right_side .icons_block > div,.footer,.burger-menu").toggleClass("blur");
   $(this).prev().toggleClass("zinz-big");
     $(this).parent().toggleClass("active");
      $(".shadow-container").toggle();
@@ -452,6 +453,7 @@ function windowSize(){
         && div.has(e.target).length === 0) { // и не по его дочерним элементам
       $(".inside__page .tarifs-row .right_side .payment-block").removeClass("active");
     $(".fixed_block").removeClass("active");
+    $(".shadow-wrap").hide();
 
     }
     });
@@ -483,13 +485,13 @@ function windowSize(){
       });
 
 
-       $('.side-menu').click (function(){
+       $('.side-menu nav').click (function(){
           $(".mobile-menu-inside-page").show(200);
       });
 
        $(function() {
 $('.shadow-container').click(function() {
-    $(".mobile--filters").slideToggle(300);
+    $(".mobile--filters").hide(300);
     
 
 });
