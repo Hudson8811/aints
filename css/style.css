@@ -802,7 +802,7 @@ background: linear-gradient(to bottom, rgba(33,189,6,1) 0%, rgba(247,202,0,1) 10
 .inside__page .tarifs-row .opportunities .table .item .tbc.all-value span{font-weight: 400;    font-family: "Arial";margin-left: 2px}
 .inside__page .tarifs-row .opportunities .table .item .tbc.all-value.active{color: #424a52;}
 .inside__page .tarifs-row .opportunities .table .item .tbc.img{width: 70px;}
-.inside__page .fixed-btn{background-color: #2eb036;height: 52px;line-height: 17px;z-index: 700;; display: flex;align-items: center;justify-content: center; color: #fff;font-size: 14px;letter-spacing: 1.6px;font-family: "Whitney";font-weight: 500;text-transform: uppercase;}
+.inside__page .fixed-btn{background-color: #2eb036;height: 52px;line-height: 17px;z-index: 850; display: flex;align-items: center;justify-content: center; color: #fff;font-size: 14px;letter-spacing: 1.6px;font-family: "Whitney";font-weight: 500;text-transform: uppercase;}
 
 .inside__page .fixed-btn:hover{background-color: #1bbd06;}
 .subfooter{height: 112px;}
