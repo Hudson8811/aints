@@ -423,10 +423,11 @@
 	.matches .item .top_block .right_side > :not(div), .matches .item .top_block .right_side .icons-block a{padding: 0 6px;border-left: 1px solid #dddddd;}
 	.matches .item .top_block{margin: 0 8px;}
 	.matches .item{padding: 0 13px;}
+	.matches .item.item-little .center_block .player.item__right-player .player-stats{margin-top: -84px;}
 	.matches .item .center_block{flex-direction: column;}
 	.matches .item .center_block .player{width: 100%;}
 	.matches .item .center_block .player+.player{margin-top: 5px;	}
-	.matches .item .btn-graph{   top: 54.9%;transform: rotate(90deg);}
+	.matches .item .btn-graph{   top: 50%;transform: rotate(90deg);margin-top: 0;}
 	.rating{width: 220px;}
 	.matches .item .center_block .player .center_block_info .right_side .name{letter-spacing: -1px;}
 	.matches .item .top_block{margin: 0 10px;}
