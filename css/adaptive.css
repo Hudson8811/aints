@@ -501,7 +501,8 @@
 	.under-header .container .left_side .link:before,.under-header .container .left_side .link:after{display: none;}
 }
 @media screen and (max-width: 650px){
-	.under-header .container .left_side{position: relative; white-space: nowrap;overflow: auto;max-width: 210px;justify-content: flex-start;box-sizing: border-box;padding-right: 120px;	}
+	.under-header .inner{padding-left: 0;}
+	.under-header .container .left_side{position: relative; white-space: nowrap;overflow: auto;max-width: 177px;justify-content: flex-start;box-sizing: border-box;padding-right: 120px;	}
 	.header .row .logo{width: 86px;}
 	
 	.footer .foot-menu .row nav ul{flex-direction: column;text-align: center;}
