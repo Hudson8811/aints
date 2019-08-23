@@ -297,7 +297,15 @@ $('.under-header .container .right_side .premium-btn').change(function() {
 
 
 
+  $('.top-banner .item').click(function() {
+     
+    $(this)
+        .addClass('active').siblings().removeClass('active')
+        
+    
 
+
+});
 
 (function($) {
 $(function() {
@@ -511,7 +519,7 @@ var swipercustom = undefined;
 function initSwiper() {
     var screenWidth = $(window).width();
     if(screenWidth < 769 && swipercustom == undefined) {
-        $('.swiper-container').each(function(){
+        $('.matches .swiper-container').each(function(){
             swipercustom = new Swiper(this, {
                 autoHeight: true,
                 pagination: {
@@ -522,15 +530,53 @@ function initSwiper() {
             })
         });
     } else if (screenWidth > 768 && swipercustom != undefined) {
-        $('.swiper-container').each(function(){
+        $('.matches .swiper-container').each(function(){
             this.swiper.destroy();
         })
         swipercustom = undefined;
-        jQuery('.swiper-wrapper').removeAttr('style');
-        jQuery('.swiper-slide').removeAttr('style');
+        jQuery('.matches .swiper-wrapper').removeAttr('style');
+        jQuery('.matches .swiper-slide').removeAttr('style');
     }
 }
 initSwiper();
 $(window).on('resize', function(){
     initSwiper();
+});
+
+
+
+
+
+$('.banners-mobile .swiper-slide1').click (function(){
+  $(this).removeClass("next").removeClass("nextnext").removeClass("prev").removeClass("prevprev").addClass("swiper-slide-active").next().removeClass("swiper-slide-active").removeClass("next").removeClass("nextnext").removeClass("prev").removeClass("prevprev").addClass("next").next().removeClass("swiper-slide-active").removeClass("next").removeClass("nextnext").removeClass("prev").removeClass("prevprev").addClass("nextnext");
+});
+
+$('.banners-mobile .swiper-slide2').click (function(){
+  $(this).removeClass("next").removeClass("nextnext").removeClass("prev").removeClass("prevprev").addClass("swiper-slide-active").prev().removeClass("swiper-slide-active").removeClass("next").removeClass("nextnext").removeClass("prev").removeClass("prevprev").addClass("prev").next().next().removeClass("swiper-slide-active").removeClass("next").removeClass("nextnext").removeClass("prev").removeClass("prevprev").addClass("next");
+});
+
+$('.banners-mobile .swiper-slide3').click (function(){
+  $(this).removeClass("next").removeClass("nextnext").removeClass("prev").removeClass("prevprev").addClass("swiper-slide-active").prev().removeClass("swiper-slide-active").removeClass("next").removeClass("nextnext").removeClass("prev").removeClass("prevprev").addClass("prev").prev().removeClass("swiper-slide-active").removeClass("next").removeClass("nextnext").removeClass("prev").removeClass("prevprev").addClass("prevprev");
+});
+
+
+$('.icon-Arrow_Right:nth-child(1)').click (function(){
+  $(this).closest(".banners-mobile").find(".next").removeClass("next");
+  $(this).closest(".banners-mobile").find(".nextnext").removeClass("nextnext");
+  $(this).closest(".banners-mobile").find(".prev").removeClass("prev");
+  $(this).closest(".banners-mobile").find(".prevprev").removeClass("prevprev");
+  
+  $(this).closest(".banners-mobile").find(".swiper-slide-active").removeClass("swiper-slide-active").prev().addClass("swiper-slide-active").prev().addClass("prev").prev().addClass("prevprev");
+  $(this).closest(".banners-mobile").find(".swiper-slide-active").next().addClass("next").next().addClass("nextnext");
+});
+
+
+$('.icon-Arrow_Right:nth-child(2)').click (function(){
+  $(this).closest(".banners-mobile").find(".next").removeClass("next");
+  $(this).closest(".banners-mobile").find(".nextnext").removeClass("nextnext");
+  $(this).closest(".banners-mobile").find(".prev").removeClass("prev");
+  $(this).closest(".banners-mobile").find(".prevprev").removeClass("prevprev");
+  
+  $(this).closest(".banners-mobile").find(".swiper-slide-active").removeClass("swiper-slide-active").next().addClass("swiper-slide-active").next().addClass("next").next().addClass("nextnext");
+  $(this).closest(".banners-mobile").find(".swiper-slide-active").prev().addClass("prev").prev().addClass("prevprev");
 });
