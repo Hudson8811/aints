@@ -572,6 +572,7 @@ $('.icon-Arrow_Right:nth-child(1)').click (function(){
 
 
 $('.icon-Arrow_Right:nth-child(2)').click (function(){
+  
   $(this).closest(".banners-mobile").find(".next").removeClass("next");
   $(this).closest(".banners-mobile").find(".nextnext").removeClass("nextnext");
   $(this).closest(".banners-mobile").find(".prev").removeClass("prev");
