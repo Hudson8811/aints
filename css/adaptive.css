@@ -41,7 +41,8 @@
 }
 */
 @media screen and (min-width: 1225px){
-	.matches .item .top_block .right_side .icons-block a.on_tablet_and_mobile{display: none;}
+	
+	.matches .item .top_block .right_side .icons-block a.on_tablet_and_mobile,.swiper-pagination-bullet{display: none;}
 	.swiper-container{overflow: visible;}
 	.header .row .right_side.autorized .alert-icon.on_tablet_and_mobile{display: none !important;}
 	.matches .item:last-child .bottom_block .help-block .hover-block{top: auto;bottom: 100%;}

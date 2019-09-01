@@ -854,7 +854,7 @@ background: linear-gradient(to bottom, rgba(33,189,6,1) 0%, rgba(247,202,0,1) 10
 .top-banner .item.active .videobg{display: block}
 .top-banner .item h3{ font-size: 14px;line-height: 22px; font-family: 'Whitney'; font-weight: 600;  font-style: italic;color: #fff;position: relative;z-index: 50;}
 .top-banner .item.active h3{text-align: left; font-size: 25.44px;line-height: 33.30px;}
-.top-banner .item .videobg{height: 100px;max-width: 312px;display: none;}
+.top-banner .item .videobg{height: 120px;max-width: 352px;display: none;}
 .banners-mobile{height: 360px;padding: 100px 0;position: relative;}
 .banners-mobile .swiper-container{overflow: visible !important ;}
 .banners-mobile .swiper-slide{position: absolute;left: 50%;transform: translateX(-50%);transition: 0.5s}
@@ -887,7 +887,7 @@ background: linear-gradient(to bottom, rgba(33,189,6,1) 0%, rgba(247,202,0,1) 10
 .banners-mobile .swiper-slide.swiper-slide-active img{display: block;}
 .banners-mobile .swiper-slide.swiper-slide-active:after{content: '';position: absolute;bottom: 0;left: 0; background-image: url(../img/texture-mobile.png);background-repeat: no-repeat;width: 100%;height: 182px;;}
 .banners-mobile .swiper-slide.swiper-slide-active h3{font-size: 24px;line-height: 27px;}
-
+.banners-mobile .swiper-slide.swiper-slide-active img{width: auto;margin: 0 auto;}
 .banners-mobile .swiper-slide-active{position: relative;z-index: 50;}
 .burger-menu{margin-right: 5px; height: 32px;width: 32px;background-image: url(../img/btn-menu.png);}
 
