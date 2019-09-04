@@ -8,6 +8,7 @@
 <title>Title here</title>
 <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?u8vidh">
 <link rel="stylesheet" type="text/css" href="assets/fonts.css">
+<link rel="stylesheet" type="text/css" href="assets/jquery.fancybox/jquery.fancybox.min.css">
 <link rel="stylesheet" type="text/css" href="css/global.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/adaptive.css">
@@ -424,7 +425,9 @@
              </div>
            </div>
         </div>
-        <div class="banners-mobile on_mobile">
+
+        <a href="javascript:;" data-src="#banners-mobile" data-fancybox  data-options="{&quot;touch&quot; : false}" style="display: block; background: #000; text-align: center; padding: 15px;">Открыть окно</a>
+        <div class="banners-mobile on_mobile" id="banners-mobile">
             <div class="arrows">
                 <span class="icon-Arrow_Right"></span>
                 <span class="icon-Arrow_Right"></span>
@@ -9123,6 +9126,8 @@
 <script src="js/jquery.nice-select.min.js"></script>
 <script src="js/jquery.scrollbar.min.js"></script>
 <script src="js/jquery.arcticmodal.js"></script>
+<script src="js/jquery.touchSwipe.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
 <script src="js/script.js"></script>
 
 

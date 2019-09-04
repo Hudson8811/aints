@@ -51,7 +51,7 @@
 @media screen and (max-width: 1224px){
 	.matches .item .top_block .graph-stats span{margin:0 2px}
 	.matches .item .top_block .graph-stats {font-size:10px; position: absolute;top:0;right: 0;width:74px;justify-content: center; height:100%;display: flex;align-items:center;border-left:1px solid #e7e8e9}
-	.banners-mobile{display: block;}
+	/*.banners-mobile{display: block;}*/
 	.inside__page .about_project .side-menu ul li a{text-align: center;}
 	.inside__page .about_project .side-menu ul li a i{margin-right: 0;text-align: center;}
 	.inside__page .text__block.rackets--bg:before{top: 10px;}
