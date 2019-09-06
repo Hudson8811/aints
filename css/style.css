@@ -813,7 +813,7 @@ background: linear-gradient(to bottom, rgba(33,189,6,1) 0%, rgba(247,202,0,1) 10
 .footer.inside_page:after{content: '';position: absolute;top: -40px;left: 0;width: 100%;height: 40px;background: linear-gradient(to bottom, rgba(66,74,82,0.2) 0%, rgba(66,74,82,0) 100%);transform: rotate(180deg);opacity: 0.4}
 
 .footer:before{content: '';position: absolute;left: 0; bottom: 100%;width: 100%;height: 65px;background-image: url(../img/texture.svg);background-size: cover;}
-.footer .foot-menu{height: 73px;background-image: url(../img/foot1-bg.jpg);}
+.footer .foot-menu{height: 73px;background-color: #333333;}
 .footer .foot-menu .row{margin: 0 auto;justify-content: space-between;align-items: center;}
 .footer .foot-menu .row .select{width: 71px;background: none;border-color: #5c5c5c;color: #a0a4a8;border-radius: 5px;padding-left: 7px;padding-left: 13px; height: 40px;line-height: 38px;font-family: 'Whitney Book';}
 .footer .foot-menu .row .nice-select:after{border-color: #5c5c5c;right: 9px;}
@@ -830,7 +830,7 @@ background: linear-gradient(to bottom, rgba(33,189,6,1) 0%, rgba(247,202,0,1) 10
 .footer .foot-menu .row nav ul li a:hover{color: #fff;}
 .footer .foot-menu .row nav ul li:before{content: '';position: absolute;left: 0;top: -26px;background-image: url(../img/foot-nav-border.png);width: 1px;height: 60px;}
 .footer .foot-menu .row nav ul li:last-child:after{content: '';position: absolute;right: 0;top: -26px;background-image: url(../img/foot-nav-border.png);width: 1px;height: 60px;}
-.footer .foot-copy{height: 39px;text-align: center;background-image: url(../img/foot2-bg.jpg);}
+.footer .foot-copy{height: 39px;text-align: center;background-color: #2b2b2b;}
 .footer .foot-copy .row{margin: 0 auto; justify-content: center;align-items: center;font-size: 12px;line-height: 15px;color: #a0a4a8;font-weight: 300;}
 .footer .foot-copy .row a{font-size: 12px;line-height: 15px;text-decoration: underline;margin-left: 5px;color: #a0a4a8;font-weight: 300;}
 .footer .foot-copy .row a:hover{text-decoration: none;}
@@ -855,11 +855,11 @@ background: linear-gradient(to bottom, rgba(33,189,6,1) 0%, rgba(247,202,0,1) 10
 .top-banner .item.active::before{content: '';position: absolute;width: 100%;left: 20px;height: 100%;background-image: url(../img/slider-actvie-before.png);background-position:left center;background-repeat: no-repeat}
 .top-banner .item.active .videobg{display: block}
 .top-banner .item h3{ font-size: 14px;line-height: 22px; font-family: 'Whitney'; font-weight: 600;  font-style: italic;color: #fff;position: relative;z-index: 50;}
-.top-banner .item.active h3{text-align: left; font-size: 25.44px;line-height: 33.30px;}
+.top-banner .item.active h3{text-align: left; font-size: 25px;line-height: 33px;letter-spacing: -1.1px}
 .top-banner .item .videobg{height: 120px;max-width: 352px;display: none;}
 .banners-mobile{height: 360px;padding: 100px 0;position: relative; box-sizing: content-box;}
 .banners-mobile .swiper-container{overflow: visible !important ;}
-.banners-mobile .swiper-slide{position: absolute;left: 50%;transform: translateX(-50%);transition: 0.5s}
+.banners-mobile .swiper-slide{position: absolute;left: 50%;transform: translateX(-50%);}
 .banners-mobile .swiper-slide.swiper-slide-active{height: 290px !important;}
 .banners-mobile .swiper-slide.prevprev,.banners-mobile .swiper-slide.nextnext{max-width: 315px;}
 .banners-mobile .swiper-slide.next,.banners-mobile .swiper-slide.prev{max-width:335px ;}
@@ -889,7 +889,7 @@ background: linear-gradient(to bottom, rgba(33,189,6,1) 0%, rgba(247,202,0,1) 10
 .banners-mobile .swiper-slide.swiper-slide-active img{display: block;}
 .banners-mobile .swiper-slide.swiper-slide-active:after{content: '';position: absolute;bottom: 0;left: 0; background-image: url(../img/texture-mobile.png);background-repeat: no-repeat;width: 100%;height: 182px;;}
 .banners-mobile .swiper-slide.swiper-slide-active h3{font-size: 24px;line-height: 27px;}
-.banners-mobile .swiper-slide.swiper-slide-active img{width: auto;margin: 0 auto;}
+.banners-mobile .swiper-slide.swiper-slide-active img{width: auto;margin: 0 auto;max-width: 95%;}
 .banners-mobile .swiper-slide-active{position: relative;z-index: 50;}
 .burger-menu{margin-right: 5px; height: 32px;width: 32px;background-image: url(../img/btn-menu.png);}
 
