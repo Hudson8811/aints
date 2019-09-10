@@ -8,6 +8,7 @@
 <title>Title here</title>
 <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?u8vidh">
 <link rel="stylesheet" type="text/css" href="assets/fonts.css">
+<link rel="stylesheet" type="text/css" href="assets/jquery.fancybox/jquery.fancybox.min.css">
 <link rel="stylesheet" type="text/css" href="css/global.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/adaptive.css">
@@ -367,7 +368,7 @@
         </div>
         <div class="top-banner cover rL ">
            <div class="container d-flex inner">
-              <div class="item d-flex active box w100 cover"  style="background-image:url(img/texture.svg), url(img/slider-item-bg1.jpg)">
+              <div class="item d-flex active box w100 cover"   style="background-image:url(img/texture.svg), linear-gradient(0deg, #0596c3 0%, #4bcbc4 100%)">
                   <img src="img/slider-img1.png" alt="" class="abs b0 l0"></img>
                   <div class="left_side">
                     <h3 class="upp">
@@ -385,7 +386,7 @@
                       <span class="icon-Arrow_Right"></span>
                   </div>
                </div>
-               <div class="item d-flex box w100 cover" style="background-image:url(img/texture.svg), linear-gradient(0deg, rgba(43, 181, 55, 1) 0%, rgba(23, 213, 166, 1) 100%)">
+               <div class="item d-flex box w100 cover" style="background-image:url(img/texture.svg), linear-gradient(0deg, #2ab438 0%, #3cd2a3 100%)">
                   <img src="img/banner-after.png" alt="" class="abs b0 l0"></img>
                   <div class="left_side">
                     <h3 class="upp">
@@ -403,12 +404,12 @@
                       <span class="icon-Arrow_Right"></span>
                   </div>
                </div>
-               <div class="item d-flex box w100 cover" style="background-image:url(img/texture.svg), url(img/slider-item-bg3.jpg)">
+               <div class="item d-flex box w100 cover" style="background-image:url(img/texture.svg), linear-gradient(0deg, #a667ec 0%, #f78251 100%)">
                 <img src="img/slider-img3.png" alt="" class="abs b0 l0"></img>
                 <div class="left_side">
                   <h3 class="upp">
-                      доступ к <br>
-                      уникальным
+                      доступ к 
+                      уникальным <br>
                       параметрам
                   </h3>
                 </div>
@@ -424,7 +425,9 @@
              </div>
            </div>
         </div>
-        <div class="banners-mobile on_mobile">
+
+        <a href="javascript:;" data-src="#banners-mobile" data-fancybox  data-options="{&quot;touch&quot; : false}" style="display: block; background: #000; text-align: center; padding: 15px;">Открыть окно</a>
+        <div class="banners-mobile on_mobile" id="banners-mobile">
             <div class="arrows">
                 <span class="icon-Arrow_Right"></span>
                 <span class="icon-Arrow_Right"></span>
@@ -9123,6 +9126,8 @@
 <script src="js/jquery.nice-select.min.js"></script>
 <script src="js/jquery.scrollbar.min.js"></script>
 <script src="js/jquery.arcticmodal.js"></script>
+<script src="js/jquery.touchSwipe.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
 <script src="js/script.js"></script>
 
 
