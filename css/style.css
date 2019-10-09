@@ -10,7 +10,7 @@ main{position: relative;}
 .header .row .main-menu{height: 100%;}
 .header .row .main-menu li{position: relative;height: 100%; box-sizing: border-box;display: flex;align-items: center;}
 .header .row .main-menu.active{ display: flex; position: absolute;top: 100%;flex-direction: column;background-color: #fff;z-index: 500;width: 156px;left: 0;text-align: center;transform: translateY(0);}
-.header .row .main-menu li.active{background-image: url(img/main-menu-bg.png);background-position: top;background-repeat: no-repeat;background-size: 100% 1px;}
+.header .row .main-menu li.active{background-image: url(../img/main-menu-bg.png);background-position: top;background-repeat: no-repeat;background-size: 100% 1px;}
 .header .row .main-menu li:before{content: '';position: absolute;left: 0;top: 0;width: 1px;height: 100%;background-image: url(../img/main-menu-before.png);}
 .header .row .main-menu li a{padding: 0 16px;display: flex;align-items: center;height: 100%;}
 .header .row .main-menu li:last-child:after{content: '';position: absolute;right: 0;top: 0;width: 1px;height: 100%;background-image: url(../img/main-menu-before.png);}

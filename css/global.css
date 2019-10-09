@@ -171,7 +171,7 @@ header, nav, section, article, aside, footer, main{display:block;}
 .arcticmodal-overlay{background-color: rgba(0,0,0,0.2) !important;}
 /* modal */
 .b-modal { position: relative; margin:0 auto;}
-.b-modal_close.new { background:url('img2/x_close.png') no-repeat; width:16px; height:16px; cursor:pointer; z-index:400; position:absolute; right:13px; top:11px;}
+.b-modal_close.new { background:url('../img2/x_close.png') no-repeat; width:16px; height:16px; cursor:pointer; z-index:400; position:absolute; right:13px; top:11px;}
 .b-modal_close:hover{}
 
 .b-modal{position:relative; z-index:990;}
